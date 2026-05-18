@@ -1,0 +1,62 @@
+{
+	"Code":"maor",
+	"Culture":[ "maori" ],
+	"Region":[ "mediterranean", "europe", "greece" ],
+	"Music":[
+		{"File":"The_Hellespont.ogg", "Type":"peace"},
+		{"File":"Harvest_Festival.ogg", "Type":"peace"},
+		{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+		{"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
+		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name":"Test",
+			"History":"Test",
+			"Description":"Test"
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/theb/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/maor/civil_centre"
+		},
+		{
+			"Template": "units/maor/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/maor/infantry_spearman_b",
+			"Count": 3
+		},
+		{
+			"Template": "units/maor/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/maor/cavalry_javelineer_b"
+		}
+	],
+	"AINames":
+	[
+		"Calydnus",
+		"Ogyges",
+		"Cadmus",
+		"Pentheus",
+		"Polydorus",
+		"Nycteus",
+		"Lycus",
+		"Labdacus"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/units/default_infantry_melee_b": "units/maor/infantry_spearman_b"
+	},
+	"SelectableInGameSetup": true
+}

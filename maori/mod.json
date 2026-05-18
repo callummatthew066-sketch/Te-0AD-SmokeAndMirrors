@@ -1,0 +1,7 @@
+{
+	"name": "maori",
+	"version": "0.28.0",
+	"label": "Maori",
+	"description": "Test",
+	"dependencies": ["0ad=0.28.0"]
+}
