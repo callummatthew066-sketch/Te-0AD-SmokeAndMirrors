@@ -1,0 +1,22 @@
+<actor>
+
+  <group>
+    <variant>
+
+      <mesh>skeletal/athenian_infantry.dae</mesh>
+
+      <textures>
+        <texture file="skins/maori/warrior_diffuse.png"/>
+      </textures>
+
+      <animations>
+        <animation name="idle" file="biped/idle.dae"/>
+        <animation name="walk" file="biped/walk.dae"/>
+        <animation name="attack" file="biped/attack_spear.dae"/>
+        <animation name="death" file="biped/death.dae"/>
+      </animations>
+
+    </variant>
+  </group>
+
+</actor>
