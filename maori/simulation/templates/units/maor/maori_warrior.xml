@@ -4,6 +4,8 @@
 
     <GenericName>Māori Warrior</GenericName>
 
+    <Icon>units/maori/warrior.png</Icon>
+
     <Classes datatype="tokens">
       Infantry Melee Spearman CitizenSoldier
     </Classes>
