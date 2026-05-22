@@ -1,0 +1,40 @@
+<Entity parent="template_unit_infantry">
+  <Identity>
+    <Civ>maori</Civ>
+
+    <GenericName>Māori Warrior</GenericName>
+
+    <Classes datatype="tokens">
+      Infantry Melee Spearman CitizenSoldier
+    </Classes>
+  </Identity>
+
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>20</wood>
+    </Resources>
+
+    <BuildTime>10</BuildTime>
+  </Cost>
+
+  <Health>
+    <Max>120</Max>
+  </Health>
+
+  <Attack>
+    <Melee>
+      <Hack>9</Hack>
+      <RepeatTime>1000</RepeatTime>
+    </Melee>
+  </Attack>
+
+  <Armour>
+    <Hack>3</Hack>
+    <Pierce>2</Pierce>
+  </Armour>
+
+  <VisualActor>
+    <Actor>units/maori/warrior.xml</Actor>
+  </VisualActor>
+</Entity>
