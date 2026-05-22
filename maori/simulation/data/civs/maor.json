@@ -1,6 +1,8 @@
 {
 	"Code":"maor",
 	"Culture":[ "maori" ],
+	"Name":"Māori",
+
 	"Region":[ "mediterranean", "europe", "greece" ],
 	"Music":[
 		{"File":"The_Hellespont.ogg", "Type":"peace"},
@@ -56,7 +58,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_melee_b": "units/maor/infantry_spearman_b"
+		"skirmish/units/default_infantry_melee_b": "units/maor/maori_warrior"
 	},
 	"SelectableInGameSetup": true
 }
