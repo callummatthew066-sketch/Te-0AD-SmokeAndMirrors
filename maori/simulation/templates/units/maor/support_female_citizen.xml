@@ -16,35 +16,19 @@
     </SelectionGroupName>
   </Identity>
 
-  <Sound>
-    <SoundGroups>
-
-      <!-- ATTACK -->
-      <order_attack>voice/maori_female</order_attack>
-      <order_attack_move>voice/maori_female</order_attack_move>
-
-      <!-- BUILD -->
-      <order_build>voice/maori_female</order_build>
-
-      <!-- MOVEMENT -->
-      <order_walk>voice/maori_female</order_walk>
-      <order_patrol>voice/maori_female</order_patrol>
-
-      <!-- GATHER -->
-      <gather_fish>voice/maori_female</gather_fish>
-
-      <!-- RETREAT -->
-      <order_garrison>voice/maori_female</order_garrison>
-
-      <!-- SELECTION -->
-      <select>voice/maori_female</select>
-
-      <!-- DEATH -->
-      <death>voice/maori_female</death>
-
-    </SoundGroups>
-  </Sound>
-
+<Sound>
+  <SoundGroups>
+    <select>audio/voice/te_reo/maori_female</select>
+    <death>audio/voice/te_reo/maori_female</death>
+    <order_walk>audio/voice/te_reo/maori_female</order_walk>
+    <order_build>audio/voice/te_reo/maori_female</order_build>
+    <order_attack>audio/voice/te_reo/maori_female</order_attack>
+    <order_attack_move>audio/voice/te_reo/maori_female</order_attack_move>
+    <order_patrol>audio/voice/te_reo/maori_female</order_patrol>
+    <gather_fish>audio/voice/te_reo/maori_female</gather_fish>
+    <order_garrison>audio/voice/te_reo/maori_female</order_garrison>
+  </SoundGroups>
+</Sound>
   <VisualActor>
     <Actor>units/athenians/female_citizen.xml</Actor>
   </VisualActor>
