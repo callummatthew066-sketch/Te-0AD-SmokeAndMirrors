@@ -18,6 +18,8 @@
 
 <Sound>
   <SoundGroups>
+    <SoundGroups disable="">
+
     <select>audio/voice/te_reo/maori_female.xml</select>
     <death>audio/voice/te_reo/maori_female.xml</death>
     <order_walk>audio/voice/te_reo/maori_female.xml</order_walk>
