@@ -1,35 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-
-<SoundGroup>
-	<Gain>0.8</Gain>
-	<Priority>100</Priority>
-	<Looping>0</Looping>
-	<RandOrder>1</RandOrder>
-	<RandGain>1</RandGain>
-	<RandPitch>1</RandPitch>
-
-	<Path>audio/voice/te_reo</Path>
-
-	<!-- ATTACK -->
-	<Sound>civ_female_attack_1.ogg</Sound>
-	<Sound>civ_female_attack_2.ogg</Sound>
-
-	<!-- BUILD -->
-	<Sound>civ_female_build.ogg</Sound>
-
-	<!-- FISH / GATHER -->
-	<Sound>civ_female_fish.ogg</Sound>
-
-	<!-- MOVE -->
-	<Sound>civ_female_moving.ogg</Sound>
-
-	<!-- RETREAT -->
-	<Sound>civ_female_retreat.ogg</Sound>
-
-	<!-- SELECT -->
-	<Sound>civ_female_select_1.ogg</Sound>
-	<Sound>civ_female_select_2.ogg</Sound>
-	<Sound>civ_female_select_3.ogg</Sound>
-	<Sound>civ_female_select_4.ogg</Sound>
-
-</SoundGroup>
+<Sound>
+  <SoundGroups>
+    <select>audio/voice/te_reo/maori_female_select.xml</select>
+    <order_walk>audio/voice/te_reo/maori_female_move.xml</order_walk>
+    <order_build>audio/voice/te_reo/maori_female_build.xml</order_build>
+    <order_attack>audio/voice/te_reo/maori_female_attack.xml</order_attack>
+    <death>audio/voice/te_reo/maori_female_retreat.xml</death>
+    <order_garrison>audio/voice/te_reo/maori_female_retreat.xml</order_garrison>
+    <gather_fish>audio/voice/te_reo/maori_female_fish.xml</gather_fish>
+  </SoundGroups>
+</Sound>
