@@ -1,5 +1,7 @@
 <Sound>
   <SoundGroups>
+    <SoundGroups disable="">
+
     <select>audio/voice/te_reo/maori_female_select.xml</select>
     <order_walk>audio/voice/te_reo/maori_female_move.xml</order_walk>
     <order_build>audio/voice/te_reo/maori_female_build.xml</order_build>
