@@ -5,6 +5,6 @@
 	"modifications": [
 		{ "value": "Cost/BuildTime", "multiply": 0.9 }
 	],
-	"auraName": "Boeotian Confederacy",
+	"auraName": "Test",
 	"auraDescription": "All allied Buildings -10% build time."
 }

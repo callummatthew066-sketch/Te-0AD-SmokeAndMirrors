@@ -2,21 +2,10 @@
 <Entity parent="template_unit_support_civilian">
   <Identity>
     <Civ>maor</Civ>
-    <GenericName>Māori Citizen</GenericName>
-    <SpecificName>Tāngata</SpecificName>
-    <Icon>units/maor/support_civilian.png</Icon>
+    <GenericName>Maori Citizen</GenericName>
+    <SpecificName>Maori</SpecificName>
+    <Icon>units/athen/support_civilian.png</Icon>
   </Identity>
-<Sound>
-  <SoundGroups>
-    <select>voice/te_reo/maori_female.xml</select>
-    <order_walk>voice/te_reo/maori_female.xml</order_walk>
-    <order_build>voice/te_reo/maori_female.xml</order_build>
-    <order_attack>voice/te_reo/maori_female.xml</order_attack>
-    <death>voice/te_reo/maori_female.xml</death>
-    <order_garrison>voice/te_reo/maori_female.xml</order_garrison>
-    <gather_fish>voice/te_reo/maori_female.xml</gather_fish>
-  </SoundGroups>
-</Sound>
   <VisualActor>
     <Actor>units/athenians/citizen_{phenotype}.xml</Actor>
   </VisualActor>

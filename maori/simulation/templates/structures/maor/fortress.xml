@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Identity>
-    <Civ>theb</Civ>
+    <Civ>maor</Civ>
     <SpecificName>Phrourion</SpecificName>
   </Identity>
   <Obstruction>
@@ -13,7 +13,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-	  thebans/heroes_boeotarch
+	  maori/heroes_boeotarch
     </Technologies>
   </Researcher>
   <Trainer>

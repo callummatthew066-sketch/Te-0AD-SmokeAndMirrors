@@ -4,7 +4,7 @@
     <Square width="19.0" depth="31.0"/>
   </Footprint>
   <Identity>
-    <Civ>theb</Civ>
+    <Civ>maor</Civ>
     <SpecificName>Naos</SpecificName>
   </Identity>
   <Obstruction>
@@ -12,7 +12,7 @@
   </Obstruction>
   <Researcher>
     <Technologies datatype="tokens">
-	  thebans/vision_throphonios
+	  maori/vision_throphonios
     </Technologies>
   </Researcher>
   <VisualActor>

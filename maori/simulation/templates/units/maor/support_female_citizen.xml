@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Entity parent="template_unit_support_female_citizen">
-
   <Identity>
     <Civ>maor</Civ>
-    <Lang>maori</Lang>
-
-    <SpecificName>Wahine Māori</SpecificName>
-    <GenericName>Māori Woman</GenericName>
-
+    <Lang>greek</Lang>
+    <SpecificName>Maori</SpecificName>
+    <GenericName>Maori Woman</GenericName>
     <Icon>units/maor/support_female_citizen.png</Icon>
-
-    <SelectionGroupName>
-      units/maor/support_female_citizen
-    </SelectionGroupName>
+    <SelectionGroupName>units/maor/support_female_citizen</SelectionGroupName>
   </Identity>
-
-  <Sound>
-    <SoundGroups>
-      <select>audio/voice/te_reo/maori_female.xml</select>
-      <death>audio/voice/te_reo/maori_female.xml</death>
-      <order_walk>audio/voice/te_reo/maori_female.xml</order_walk>
-      <order_build>audio/voice/te_reo/maori_female.xml</order_build>
-      <order_attack>audio/voice/te_reo/maori_female.xml</order_attack>
-      <order_attack_move>audio/voice/te_reo/maori_female.xml</order_attack_move>
-      <order_patrol>audio/voice/te_reo/maori_female.xml</order_patrol>
-      <gather_fish>audio/voice/te_reo/maori_female.xml</gather_fish>
-      <order_garrison>audio/voice/te_reo/maori_female.xml</order_garrison>
-    </SoundGroups>
-  </Sound>
-    <VisualActor>
-      <Actor>units/athenians/female_citizen.xml</Actor>
-    </VisualActor>
-
-  </Entity>
+  <VisualActor>
+    <Actor>units/athenians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

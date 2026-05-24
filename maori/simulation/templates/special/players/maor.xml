@@ -10,8 +10,8 @@
   </EntityLimits>
   <Identity>
     <Civ>maor</Civ>
-    <GenericName>Māori</GenericName>
-    <History>The Māori are the indigenous Polynesian people of Aotearoa New Zealand, known for their rich culture, haka, and skilled warriors.</History>
+    <GenericName>Maori</GenericName>
+    <History>Test</History>
     <Icon>emblems/emblem_thebans.png</Icon>
   </Identity>
   <Player>

@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>theb</Civ>
+    <Civ>maor</Civ>
     <SpecificName>Stratopedon</SpecificName>
   </Identity>
   <Obstruction>
