@@ -1,2 +1,3 @@
 *.xmb
 *.cached.xmb
+.DS_Store
