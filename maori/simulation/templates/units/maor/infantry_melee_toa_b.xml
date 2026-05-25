@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_b">
+<Entity parent="template_unit_infantry_melee">
   <Identity>
-    <Civ>maori</Civ>
+    <Civ>maor</Civ>
     <GenericName>Toa</GenericName>
     <SpecificName>Toa</SpecificName>
     <Icon>units/maori_infantry_toa.png</Icon>
@@ -18,34 +18,25 @@
       <food>60</food>
       <wood>40</wood>
     </Resources>
-    <BuildTime>18</BuildTime>
+    <BuildTime>8</BuildTime>
   </Cost>
 
   <Health>
     <Max>110</Max>
   </Health>
 
-  <!-- Fast but lightly armoured -->
-  <Armour>
-    <Hack>3.0</Hack>
-    <Pierce>4.0</Pierce>
-    <Crush>2.0</Crush>
-  </Armour>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>3</Hack>
+        <Pierce>4</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
 
-  <!-- Hard-hitting melee attack -->
-  <Attack>
-    <Melee>
-      <Hack>14.0</Hack>
-      <Pierce>0.0</Pierce>
-      <Crush>4.0</Crush>
-      <RepeatTime>900</RepeatTime>  <!-- ms, faster than standard 1200 -->
-      <Range>2.0</Range>
-    </Melee>
-  </Attack>
-
-  <!-- High speed — key stat -->
   <UnitMotion>
-    <WalkSpeed>8.5</WalkSpeed>  <!-- standard is ~7.0 -->
+    <WalkSpeed>10</WalkSpeed>
   </UnitMotion>
 
   <Vision>
@@ -53,10 +44,10 @@
   </Vision>
 
   <Promotion>
-    <Entity>units/maori/infantry_melee_toa_a</Entity>
+    <Entity>units/maor/infantry_melee_toa_a</Entity>
   </Promotion>
 
-  <Actor>
-    units/maori/infantry_melee_toa
-  </Actor>
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
 </Entity>
