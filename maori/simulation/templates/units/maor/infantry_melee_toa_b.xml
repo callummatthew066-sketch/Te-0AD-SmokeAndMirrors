@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_b">
+  <Identity>
+    <Civ>maori</Civ>
+    <GenericName>Toa</GenericName>
+    <SpecificName>Toa</SpecificName>
+    <Icon>units/maori_infantry_toa.png</Icon>
+    <History>
+      Elite Māori warrior trained from youth in the art of taiaha combat.
+      Feared for their speed and ferocity, Toa led the charge in battle,
+      performing the haka to intimidate enemies before striking.
+    </History>
+    <Tooltip>Fast melee warrior. Low armour but high attack and move speed.</Tooltip>
+  </Identity>
+
+  <Cost>
+    <Resources>
+      <food>60</food>
+      <wood>40</wood>
+    </Resources>
+    <BuildTime>18</BuildTime>
+  </Cost>
+
+  <Health>
+    <Max>110</Max>
+  </Health>
+
+  <!-- Fast but lightly armoured -->
+  <Armour>
+    <Hack>3.0</Hack>
+    <Pierce>4.0</Pierce>
+    <Crush>2.0</Crush>
+  </Armour>
+
+  <!-- Hard-hitting melee attack -->
+  <Attack>
+    <Melee>
+      <Hack>14.0</Hack>
+      <Pierce>0.0</Pierce>
+      <Crush>4.0</Crush>
+      <RepeatTime>900</RepeatTime>  <!-- ms, faster than standard 1200 -->
+      <Range>2.0</Range>
+    </Melee>
+  </Attack>
+
+  <!-- High speed — key stat -->
+  <UnitMotion>
+    <WalkSpeed>8.5</WalkSpeed>  <!-- standard is ~7.0 -->
+  </UnitMotion>
+
+  <Vision>
+    <Range>40</Range>
+  </Vision>
+
+  <Promotion>
+    <Entity>units/maori/infantry_melee_toa_a</Entity>
+  </Promotion>
+
+  <Actor>
+    units/maori/infantry_melee_toa
+  </Actor>
+</Entity>
