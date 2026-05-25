@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Toa Parau</GenericName>
+    <SpecificName>Toa Parau</SpecificName>
+    <Icon>units/maor/infantry_ranged_toa_parau.png</Icon>
+    <History>
+      Skilled Māori javelin warriors who hurled short spears with devastating
+      accuracy before closing in for melee combat.
+    </History>
+    <Tooltip>Balanced ranged warrior. Moderate cost, decent speed and solid javelin damage.</Tooltip>
+  </Identity>
+
+  <Cost>
+    <Resources>
+      <food>50</food>
+      <wood>30</wood>
+    </Resources>
+    <BuildTime>9</BuildTime>
+  </Cost>
+
+  <Health>
+    <Max>90</Max>
+  </Health>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>4</Hack>
+        <Pierce>5</Pierce>
+        <Crush>2</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+  <UnitMotion>
+    <WalkSpeed>10</WalkSpeed>
+  </UnitMotion>
+
+  <Vision>
+    <Range>44</Range>
+  </Vision>
+
+  <Promotion>
+    <Entity>units/maor/infantry_ranged_toa_parau_a</Entity>
+  </Promotion>
+
+  <VisualActor>
+    <Actor>units/athenians/infantry_javelineer_b.xml</Actor>
+  </VisualActor>
+</Entity>

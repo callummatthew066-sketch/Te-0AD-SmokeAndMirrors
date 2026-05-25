@@ -28,7 +28,7 @@
 			"Template": "structures/maor/civil_centre"
 		},
 		{
-			"Template": "units/maor/support_female_citizen",
+			"Template": "units/maor/support_civilian",
 			"Count": 4
 		},
 		{

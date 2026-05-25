@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Parekura</GenericName>
+    <SpecificName>Parekura</SpecificName>
+    <Icon>units/maor/infantry_melee_parekura.png</Icon>
+    <History>
+      The mightiest Māori warriors, Parekura were heavily tattooed champions
+      who led the charge and absorbed the brunt of enemy attacks. Their mana
+      inspired all who fought beside them.
+    </History>
+    <Tooltip>Heavy frontline warrior. High HP, fast for their size, and moderate damage. Expensive but worth it.</Tooltip>
+  </Identity>
+
+  <Cost>
+    <Resources>
+      <food>80</food>
+      <wood>40</wood>
+      <stone>20</stone>
+    </Resources>
+    <BuildTime>12</BuildTime>
+  </Cost>
+
+  <Health>
+    <Max>250</Max>
+  </Health>
+
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>8</Hack>
+        <Pierce>7</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+
+<Attack>
+  <Melee>
+    <AttackName>Melee</AttackName>
+    <Damage>
+      <Hack>15</Hack>
+      <Pierce>0</Pierce>
+      <Crush>30</Crush>
+    </Damage>
+    <MaxRange>2.0</MaxRange>
+    <PrepareTime>500</PrepareTime>
+    <RepeatTime>1100</RepeatTime>
+    <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+  </Melee>
+</Attack>
+
+  <UnitMotion>
+    <WalkSpeed>11</WalkSpeed>
+  </UnitMotion>
+
+  <Vision>
+    <Range>50</Range>
+  </Vision>
+
+  <Promotion>
+    <Entity>units/maor/infantry_melee_parekura_a</Entity>
+  </Promotion>
+
+  <VisualActor>
+    <Actor>units/athenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_barracks">
-  <Footprint>
-    <Square width="25.0" depth="25.0"/>
-    <Height>12.0</Height>
-  </Footprint>
-  <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
-  </Health>
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Stratopedon</SpecificName>
+    <Civ>maor</Civ>
+    <SpecificName>Pā Taua</SpecificName>
   </Identity>
-  <Obstruction>
-    <Static width="20.0" depth="20.0"/>
-  </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_infantry_hoplite
-      units/{civ}/champion_infantry_swordsman
+      units/{civ}/infantry_melee_toa_b
+      units/{civ}/infantry_melee_taitamariki_b
+      units/{civ}/infantry_ranged_wahine_toa_b
+      units/{civ}/infantry_ranged_toa_parau_b
+      units/{civ}/infantry_melee_parekura_b
     </Entities>
   </Trainer>
   <VisualActor>
