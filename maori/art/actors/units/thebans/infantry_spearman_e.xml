@@ -5,11 +5,11 @@
     <variant>
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_hele_e.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_han_healer.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
       </props>
       <textures>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="test_recolour.png" name="normTex"/>
       </textures>
     </variant>
   </group>
