@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Hellenes_Fortress">
+      <animations>
+        <animation event="0.5" load="0.0" name="attack_ranged" speed="100"/>
+      </animations>
+      <mesh>structural/ptol_settlement_palisade.dae</mesh>
+      <props>
+        <prop actor="props/structures/spartans/civic_centre_decor.xml" attachpoint="root"/>
+        <prop actor="props/structures/spartans/civic_centre_trees.xml" attachpoint="root"/>
+        <prop actor="props/structures/romans/camp_tents.xml" attachpoint="root"/>
+        <prop actor="props/structures/romans/camp_tentflaps.xml" attachpoint="root"/>        
+        <prop actor="props/structures/romans/camp_turf.xml" attachpoint="root"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>        
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
+      </props>
+      <textures>
+        <texture file="props/palisade_main.png" name="baseTex"/>
+        <texture file="props/palisade_main_norm.png" name="normTex"/>
+        <texture file="props/palisade_main_spec.png" name="specTex"/>
+        <texture file="structural/ao/rome_camp_ao.png" name="aoTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="ungarrisoned" frequency="1"/>
+    <variant name="garrisoned">
+      <props>
+        <prop actor="props/special/common/garrison_flag_hele.xml" attachpoint="garrisoned"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+        <prop actor="structures/destruct_rome_camp_tents.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
+</actor>
