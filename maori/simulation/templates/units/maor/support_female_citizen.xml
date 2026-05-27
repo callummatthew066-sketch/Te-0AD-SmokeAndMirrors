@@ -30,7 +30,7 @@
     </SoundGroups>
   </Sound>
     <VisualActor>
-      <Actor>units/athenians/female_citizen.xml</Actor>
+      <Actor>units/thebans/wahine_citizen.xml</Actor>
     </VisualActor>
 
   </Entity>

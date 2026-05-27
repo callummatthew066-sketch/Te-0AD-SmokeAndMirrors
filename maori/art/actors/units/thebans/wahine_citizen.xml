@@ -3,14 +3,12 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
-        <prop actor="props/units/heads/head_minister.xml" attachpoint="head"/>
-	<prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
-        <prop actor="props/units/weapons/spear.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/heads/new/head_female_dudette_b.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="default_norm.png" name="normTex"/>
+        <texture file="base_human_indian.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
@@ -18,32 +16,32 @@
   <group>
     <variant frequency="2" name="hele-tunic-2a">
       <textures>
-        <texture file="skeletal/test_thing.png" name="baseTex"/>
+        <texture file="skeletal/female_dress_test" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="hele-tunic-2b">
       <textures>
-        <texture file="skeletal/test_thing.png" name="baseTex"/>
+        <texture file="skeletal/female_dress_test" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="hele-tunic-2c">
       <textures>
-        <texture file="skeletal/test_thing.png" name="baseTex"/>
+        <texture file="skeletal/female_dress_test" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="2" name="hele-tunic-3a">
       <textures>
-        <texture file="skeletal/test_thing.png" name="baseTex"/>
+        <texture file="skeletal/female_dress_test" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="hele-tunic-3b">
       <textures>
-        <texture file="skeletal/test_thing.png" name="baseTex"/>
+        <texture file="skeletal/female_dress_test" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="3" name="hele-tunic-3c">
       <textures>
-        <texture file="skeletal/test_thing.png" name="baseTex"/>
+        <texture file="skeletal/female_dress_test" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -18,6 +18,6 @@
   </SoundGroups>
 </Sound>
   <VisualActor>
-    <Actor>units/athenians/citizen_{phenotype}.xml</Actor>
+    <Actor>units/thebans/male_citizen.xml</Actor>
   </VisualActor>
 </Entity>
