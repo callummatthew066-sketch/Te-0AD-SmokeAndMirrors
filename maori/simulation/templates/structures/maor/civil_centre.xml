@@ -5,8 +5,8 @@
   </Health>
   <Identity>
     <Civ>maor</Civ>
-    <SpecificName>Marae</SpecificName>
-    <History>The communal and safe space in any Māori iwi, the marae serves many; it is a place for religious rituals and social ceremonies and was the stage for pōwhiri and karanga</History>
+    <SpecificName>Whare tūpuna</SpecificName>
+    <History>The Whare tūpuna serves as a meeting house of a marae. It's not considered a building but instead, a living, breathing embodiment of a shared ancestor.</History>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">

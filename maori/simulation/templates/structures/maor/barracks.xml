@@ -2,7 +2,7 @@
 <Entity parent="template_structure_military_barracks">
   <Identity>
     <Civ>maor</Civ>
-    <SpecificName>Pā Taua</SpecificName>
+    <SpecificName>Puni Toa</SpecificName>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
