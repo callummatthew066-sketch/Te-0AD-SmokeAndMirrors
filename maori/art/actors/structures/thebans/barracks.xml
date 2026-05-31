@@ -5,12 +5,7 @@
     <variant frequency="100" name="Theban Barracks">
       <mesh>structural/athen_barracks_struct.dae</mesh>
       <props>
-        <prop actor="props/structures/athenians/barracks_struct_b.xml" attachpoint="root"/>
-        <prop actor="props/structures/athenians/barracks_props_a.xml" attachpoint="root"/>
-        <prop actor="props/structures/thebans/barracks_props_shields.xml" attachpoint="root"/>
-        <prop actor="props/structures/athenians/barracks_tile_c.xml" attachpoint="root"/>
-        <prop actor="props/structures/athenians/barracks_decor.xml" attachpoint="root"/>
-        <prop actor="props/structures/decals/dirt_4x4.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/hele_struct.dds" name="baseTex"/>
