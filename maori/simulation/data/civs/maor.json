@@ -1,7 +1,7 @@
 {
 	"Code":"maor",
 	"Culture":[ "maori" ],
-	"Region":[ "mediterranean", "europe", "greece" ],
+	"Region":[ "pacific" ],
 	"Music":[
 		{"File":"The_Hellespont.ogg", "Type":"peace"},
 		{"File":"Harvest_Festival.ogg", "Type":"peace"},
@@ -28,31 +28,31 @@
 			"Template": "structures/maor/civil_centre"
 		},
 		{
-			"Template": "units/maor/support_civilian",
+			"Template": "units/moar/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/maor/infantry_spearman_b",
+			"Template": "infantry_melee_toa_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/maor/infantry_javelineer_b",
+			"Template": "units/moar/infantry_ranged_toa_parau_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/maor/cavalry_javelineer_b"
+			"Template": "units/moar/infantry_melee_taitamariki_b"
 		}
 	],
 	"AINames":
 	[
-		"Calydnus",
-		"Ogyges",
-		"Cadmus",
-		"Pentheus",
-		"Polydorus",
-		"Nycteus",
-		"Lycus",
-		"Labdacus"
+    	"Tūhoe",
+   		"Tūmatauenga",
+    	"Tāwhirimātea",
+    	"Māui",
+    	"Tāne",
+    	"Rongo",
+    	"Tangaroa",
+    	"Tōwhū"
 	],
 	"SkirmishReplacements":
 	{
