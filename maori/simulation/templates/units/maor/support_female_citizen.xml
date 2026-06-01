@@ -2,7 +2,7 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>maor</Civ>
-    <Lang>greek</Lang>
+    <Lang>te_reo</Lang>
     <SpecificName>Maori</SpecificName>
     <GenericName>Maori Woman</GenericName>
     <Icon>units/maor/support_female_citizen.png</Icon>

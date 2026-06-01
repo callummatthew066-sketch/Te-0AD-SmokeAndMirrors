@@ -8,6 +8,9 @@
     <Civ>maor</Civ>
     <SpecificName>Phrourion</SpecificName>
   </Identity>
+  <Auras datatype="tokens">
+    structures/test_building_aura
+  </Auras>
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>

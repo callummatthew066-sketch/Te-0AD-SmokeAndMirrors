@@ -16,6 +16,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/thebans/civic_center.xml</Actor>
+    <Actor>structures/maori/civic_center.xml</Actor>
   </VisualActor>
 </Entity>
