@@ -3,6 +3,8 @@
   <Identity>
     <Civ>maor</Civ>
     <SpecificName>Puni Toa</SpecificName>
+    <GenericName>Barracks</GenericName>
+    <History>The Puni Toa was a fortified warriors compound within the pā, where toa (warriors) trained and prepared for battle. Surrounded by sharpened palisade posts, it was both a practical military structure and a symbol of the hapū's strength.</History>
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
@@ -14,7 +16,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/thebans/barracks.xml</Actor>
+    <Actor>structures/maori/barracks.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>
