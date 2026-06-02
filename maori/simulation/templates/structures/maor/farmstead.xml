@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_farmstead">
   <Footprint>
-    <Square width="20.0" depth="15.0"/>
+    <Square width="15.0" depth="15.0"/>
     <Height>8.0</Height>
   </Footprint>
   <Health>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Epoikion</SpecificName>
-    <History>Grain wasn't plentiful in Hellas, which is why it was carefully stored in granaries, some of it being reserved for times of siege.</History>
+    <Civ>maor</Civ>
+    <SpecificName>Rua Kūmara</SpecificName>
+    <GenericName>Farmstead</GenericName>
+    <History>Kūmara (sweet potato) was the most prized crop of the Māori, carefully stored in underground rua to protect it from frost and pests through the winter months. The health of a hapū depended on the success of these stores.</History>
   </Identity>
   <Obstruction>
-    <Static width="18.0" depth="16.0"/>
+    <Static width="5.0" depth="5.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/hellenes/farmstead.xml</Actor>
+    <Actor>structures/maori/farmstead.xml</Actor>
     <FoundationActor>structures/fndn_6x3.xml</FoundationActor>
   </VisualActor>
 </Entity>
