@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic_storehouse">
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Apothēkē</SpecificName>
-    <History>Resources and building materials were kept in warehouses.</History>
+    <Civ>maor</Civ>
+    <SpecificName>Pātaka</SpecificName>
+    <GenericName>Storehouse</GenericName>
+    <History>The pātaka was a raised storehouse used to store valuable goods and materials. Elevated on a central post to protect contents from moisture and pests, pātaka were often elaborately carved, reflecting the mana of the community.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/storehouse.xml</Actor>
+    <Actor>structures/maori/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

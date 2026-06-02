@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_civic_house_big">
+<Entity parent="template_structure_civic_house">
+  <Footprint>
+    <Square width="8.0" depth="8.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Obstruction>
+    <Static width="7.0" depth="7.0"/>
+  </Obstruction>
   <Identity>
     <Civ>maor</Civ>
-    <SpecificName>Oikos</SpecificName>
-    <History>Hellenic houses from the Classical Age were generally humble yet stylish. During the Hellenistic Age, however, luxurious palaces and estates became commonplace in the rich Hellenistic metropolises like Antioch, Alexandria and Seleucia.</History>
+    <SpecificName>Whare</SpecificName>
+    <GenericName>House</GenericName>
+    <History>The whare was the traditional Māori dwelling, constructed from timber frames with walls of bark, rushes, or raupo (bulrush). Carved and painted decorations represented ancestral connections and tribal identity.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/house.xml</Actor>
+    <Actor>structures/maori/house.xml</Actor>
   </VisualActor>
 </Entity>
