@@ -11,13 +11,17 @@
 
       structures/{civ}/dock
       structures/{civ}/barracks
-      <!--           
 
-      structures/{civ}/temple
+            structures/{civ}/temple
       structures/{civ}/market
       structures/{civ}/outpost
+
       structures/{civ}/sentry_tower
       structures/{civ}/defense_tower
+      <!--           
+
+
+
       structures/{civ}/fortress
       structures/wallset_palisade
       structures/{civ}/wallset_siege

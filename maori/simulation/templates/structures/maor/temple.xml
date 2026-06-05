@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_temple">
   <Footprint>
-    <Square width="19.0" depth="31.0"/>
+    <Square width="31.0" depth="31.0"/>
   </Footprint>
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Naos</SpecificName>
+    <Civ>maor</Civ>
+    <SpecificName>Wharenui</SpecificName>
+    <GenericName>Meeting House</GenericName>
+    <History>The wharenui was the great meeting house of the hapū, the spiritual and social heart of the pā. Richly carved with ancestral figures, it represented the living body of the tribe's founding ancestor — the ridgepole his spine, the rafters his ribs, and the entrance his mouth.</History>
   </Identity>
+  <Footprint>
+    <Square width="31.0" depth="31.0"/>
+  </Footprint>
   <Obstruction>
-    <Static width="17.0" depth="29.0"/>
+    <Static width="29.0" depth="29.0"/>
   </Obstruction>
-  <Researcher>
-    <Technologies datatype="tokens">
-	  thebans/vision_throphonios
-    </Technologies>
-  </Researcher>
   <VisualActor>
-    <Actor>structures/thebans/temple.xml</Actor>
+    <Actor>structures/maori/temple.xml</Actor>
     <FoundationActor>structures/fndn_5x7.xml</FoundationActor>
   </VisualActor>
 </Entity>
