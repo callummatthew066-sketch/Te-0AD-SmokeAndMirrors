@@ -5,8 +5,10 @@
     <Height>15.0</Height>
   </Footprint>
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Ahurewa</SpecificName>
+    <Civ>maor</Civ>
+    <SpecificName>Pā Kōhatu</SpecificName>
+    <GenericName>Defense Tower</GenericName>
+    <History>The great earthwork and timber fortifications of the Māori pā were among the most sophisticated defensive structures in the Pacific. Built on high ground with terraced earthworks, deep ditches, and layered palisades, they could withstand prolonged siege.</History>
   </Identity>
   <Obstruction>
     <Static width="7.0" depth="8.0"/>
@@ -15,6 +17,6 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/hellenes/scout_tower.xml</Actor>
+    <Actor>structures/maori/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

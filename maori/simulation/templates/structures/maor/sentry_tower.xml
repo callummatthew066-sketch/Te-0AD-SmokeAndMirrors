@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_defensive_tower_sentry">
   <Identity>
-    <Civ>theb</Civ>
+    <Civ>maor</Civ>
+    <SpecificName>Pū Kārearea</SpecificName>
+    <GenericName>Sentry Tower</GenericName>
+    <History>Raised timber lookout platforms were a crucial part of the Māori pā defence system, allowing warriors to watch over surrounding land and give early warning of approaching enemies.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/wooden_tower.xml</Actor>
+    <Actor>structures/maori/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>
