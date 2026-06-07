@@ -19,8 +19,11 @@
 	],
 	"WallSets":
 	[
-		"other/wallset_palisade",
-		"structures/theb/wallset_stone"
+		"other/wallset_palisade"
+	],
+	"Structures":
+	[
+    	"structures/maor/pou_whenua"
 	],
 	"StartEntities":
 	[

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military_forge">
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Chalkéōn</SpecificName>
+    <Civ>maor</Civ>
+    <SpecificName>Whare Tāhuna</SpecificName>
+    <GenericName>Craft House</GenericName>
+    <History>The whare tāhuna was the workshop of the tohunga whakairo — the master craftspeople of the hapū. Here skilled artisans worked bone, pounamu (greenstone), and hardwoods into weapons, tools, and taonga under conditions of tapu. The adzes, taiaha, and mere produced here were the finest weapons available to Māori warriors.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/blacksmith.xml</Actor>
+    <Actor>structures/maori/forge.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic">
+  <Identity>
+    <Civ>maor</Civ>
+    <SpecificName>Pou Whenua</SpecificName>
+    <GenericName>Territory Marker</GenericName>
+    <Icon>structures/maori/pou_whenua.png</Icon>
+    <History>Pou whenua were carved posts planted in the earth to mark the boundaries of tribal land.</History>
+  </Identity>
+  <BuildRestrictions>
+    <Category>Civic</Category>
+    <Territory>neutral enemy</Territory>
+    <PlacementType>land</PlacementType>
+    <Distance>
+      <FromClass>structures/maor/pou_whenua</FromClass>
+      <MinDistance>40</MinDistance>
+    </Distance>
+  </BuildRestrictions>
+  <Footprint>
+    <Square width="2.0" depth="2.0"/>
+    <Height>4.0</Height>
+  </Footprint>
+<Obstruction>
+    <Static width="2.0" depth="2.0"/>
+</Obstruction>
+<TerritoryInfluence>
+  <Root>false</Root>
+  <Radius>60</Radius>
+  <Weight>4000</Weight>
+</TerritoryInfluence>
+  <Vision>
+    <Range>30</Range>
+  </Vision>
+  <Cost>
+    <Resources>
+      <wood>30</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <VisualActor>
+    <Actor>structures/maori/pou_whenua.xml</Actor>
+    <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
+
+  </VisualActor>
+</Entity>

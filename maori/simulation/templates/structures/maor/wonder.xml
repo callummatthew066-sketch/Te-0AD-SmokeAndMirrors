@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_wonder">
   <Footprint>
-    <Square width="28.0" depth="58.0"/>
-    <Height>12.0</Height>
+    <Square width="34.0" depth="34.0"/>
+    <Height>6.0</Height>
   </Footprint>
   <Identity>
-    <Civ>theb</Civ>
-    <SpecificName>Cadmeian Citadel</SpecificName>
+    <Civ>maor</Civ>
+    <SpecificName>Urupā</SpecificName>
+    <GenericName>Sacred Burial Ground</GenericName>
+    <History>The urupā was the most tapu place in Māori society — a sacred burial ground where the ancestors rested and their mana remained present among the living. Marked by elaborately carved pou and tended with great reverence, the urupā connected the hapū to all those who had come before. To build and maintain a great urupā was the highest expression of a tribe's devotion to their tīpuna (ancestors).</History>
   </Identity>
   <Obstruction>
-    <Static width="27.0" depth="57.0"/>
+    <Static width="33.0" depth="33.0"/>
   </Obstruction>
   <VisualActor>
+    <Actor>structures/maori/wonder.xml</Actor>
     <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
-    <Actor>structures/spartans/wonder.xml</Actor>
   </VisualActor>
 </Entity>
