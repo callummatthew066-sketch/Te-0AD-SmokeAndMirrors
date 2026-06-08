@@ -1,0 +1,15 @@
+{
+	"genericName": "Warrior Culture",
+	"autoResearch": true,
+	"description": "The Maori were knowledgeable in woodworking, and training soldiers to be both strong. Additionally due to their warrior culture people were encouraged to train in combat arts, 10% faster build speed, 10% higher health, of all military units",
+	"icon": "spear.png",
+	"tooltip": "The Maori were knowledgeable in woodworking, and training soldiers, 10% faster build speed, 10% higher health, of all military units",
+	"requirements": { "civ": "maor" },
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.9 },
+        { "value": "Health/Max", "multiply": 1.1 }
+
+	],
+	"affects": ["Infantry", "Siege", "Naval"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

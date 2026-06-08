@@ -1,8 +1,8 @@
 {
 	"Code":"maor",
 	"Culture":[ "maori" ],
-	"Region":[ "mediterranean", "europe", "greece" ],
-	"Music":[
+	"Region":[ "oceania" ],
+		"Music":[
 		{"File":"The_Hellespont.ogg", "Type":"peace"},
 		{"File":"Harvest_Festival.ogg", "Type":"peace"},
 		{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
@@ -12,15 +12,20 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Test",
-			"History":"Test",
-			"Description":"Test"
+			"Name":"Warrior Culture",
+			"History":"The Maori were knowledgeable in woodworking, and training soldiers to be both strong. Additionally due to their warrior culture people were encouraged to train in combat arts.",
+			"Description":"Provides a 10% faster build speed, 10% higher health, of all military units"
+		},
+		{
+			"Name":"Environmental Construction",
+			"History":"Maori used the environment to construct their buildings, making them cheaper, but still strong enough to withstand the tropical conditions of New Zealand.",
+			"Description":"Maori Buildings are 10% cheaper to construct, and 5% stronger."
 		}
 	],
 	"WallSets":
 	[
 		"other/wallset_palisade",
-		"structures/theb/wallset_stone"
+		"structures/maor/wallset_stone"
 	],
 	"StartEntities":
 	[
@@ -45,14 +50,10 @@
 	],
 	"AINames":
 	[
-		"Calydnus",
-		"Ogyges",
-		"Cadmus",
-		"Pentheus",
-		"Polydorus",
-		"Nycteus",
-		"Lycus",
-		"Labdacus"
+		"Te Atairangikaahu",
+		"Koroki Mahuta",
+		"Te Rata Mahuta",
+		"Mahuta Tāwhiao"
 	],
 	"SkirmishReplacements":
 	{
@@ -60,3 +61,5 @@
 	},
 	"SelectableInGameSetup": true
 }
+
+
