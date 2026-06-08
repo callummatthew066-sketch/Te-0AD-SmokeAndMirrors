@@ -56,6 +56,12 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
+      units/{civ}/infantry_melee_toa_b
+      units/{civ}/infantry_melee_taitamariki_b
+      units/{civ}/infantry_ranged_wahine_toa_b
+      units/{civ}/infantry_ranged_toa_parau_b
+      units/{civ}/infantry_melee_parekura_b
+    <!--
       units/{civ}/infantry_clubman
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_pikeman_b
@@ -74,6 +80,7 @@
       units/{civ}/champion_infantry_javelineer
       units/{civ}/champion_infantry_slinger
       units/{civ}/champion_infantry_archer
+      -->
     </Entities>
   </Trainer>
   <Vision>

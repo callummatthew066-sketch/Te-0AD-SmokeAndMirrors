@@ -10,9 +10,6 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_javelineer_b
-      units/{civ}/cavalry_javelineer_b
       units/{civ}/infantry_melee_toa_b
       units/{civ}/infantry_melee_taitamariki_b
       units/{civ}/infantry_ranged_wahine_toa_b

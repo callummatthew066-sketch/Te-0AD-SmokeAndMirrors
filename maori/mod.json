@@ -2,6 +2,6 @@
 	"name": "maori",
 	"version": "0.28.0",
 	"label": "Maori",
-	"description": "Test",
+	"description": "Adds in a maori tribe, with unique buildings, unique units and more!",
 	"dependencies": ["0ad=0.28.0"]
 }
