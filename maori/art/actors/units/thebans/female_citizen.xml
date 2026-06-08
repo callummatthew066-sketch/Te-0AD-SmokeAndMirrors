@@ -8,25 +8,33 @@
         <prop actor="props/units/heads/new/head_female_dudette_b.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="base_human_indian.png" name="normTex"/>
-        <texture file="null_black.dds" name="specTex"/>
+        <texture file="skeletal/hele/dress_female_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/dress_female_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="2" name="hele-tunic-2a">
-      <textures>
-        <texture file="skeletal/female_dress_test" name="baseTex"/>
-      </textures>
-    </variant>
+    <variant file="biped/female_base_walk.xml"/>
+    <variant file="biped/female_carry_food.xml"/>
+    <variant file="biped/female_carry_meat.xml"/>
+    <variant file="biped/female_carry_wood.xml"/>
+    <variant file="biped/female_carry_stone.xml"/>
+    <variant file="biped/female_carry_metal.xml"/>
   </group>
   <group>
-    <variant file="biped/base_hoplite.xml"/>
-    <variant file="biped/carry_food.xml"/>
-    <variant file="biped/carry_meat.xml"/>
-    <variant file="biped/carry_wood.xml"/>
-    <variant file="biped/carry_stone.xml"/>
-    <variant file="biped/carry_metal.xml"/>
+    <variant name="Idle" frequency="1"/>
+    <variant file="biped/attack_melee_female.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/female_death.xml"/>
+    <variant file="biped/female_gather_tree.xml"/>
+    <variant file="biped/female_gather_grain.xml"/>
+    <variant file="biped/female_gather_fruit.xml"/>
+    <variant file="biped/female_gather_meat.xml"/>
+    <variant file="biped/female_gather_rock.xml"/>
+    <variant file="biped/female_gather_ore.xml"/>
+    <variant file="biped/female_gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
     <variant file="biped/approach_tree.xml"/>
     <variant file="biped/approach_grain.xml"/>
     <variant file="biped/approach_fruit.xml"/>
@@ -35,29 +43,8 @@
     <variant file="biped/approach_ore.xml"/>
     <variant file="biped/approach_ruins.xml"/>
     <variant file="biped/approach_praise.xml"/>
-  </group>
-  <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/formations/phalanx_front.xml"/>
-    <variant file="biped/formations/phalanx_mid.xml"/>
-    <variant file="biped/formations/phalanx_back.xml"/>
-    <variant file="biped/attack_capture.xml">
-      <props>
-        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
-    <variant file="biped/attack_slaughter.xml"/>
-    <variant file="biped/gather_tree.xml"/>
-    <variant file="biped/gather_grain.xml"/>
-    <variant file="biped/gather_fruit.xml"/>
-    <variant file="biped/gather_meat.xml"/>
-    <variant file="biped/gather_rock.xml"/>
-    <variant file="biped/gather_ore.xml"/>
-    <variant file="biped/gather_ruins.xml"/>
-    <variant file="biped/gather_praise.xml"/>
-    <variant file="biped/build.xml"/>
-    <variant file="biped/build_farm.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/female_build.xml"/>
+    <variant file="biped/female_build_farm.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>
