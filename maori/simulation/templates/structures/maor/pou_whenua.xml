@@ -6,6 +6,9 @@
     <GenericName>Territory Marker</GenericName>
     <Icon>structures/maori/pou_whenua.png</Icon>
     <History>Pou whenua were carved posts planted in the earth to mark the boundaries of tribal land.</History>
+    <Classes datatype="tokens">
+  TerritoryInfluence Outpost Civic
+</Classes>
   </Identity>
   <BuildRestrictions>
     <Category>Civic</Category>

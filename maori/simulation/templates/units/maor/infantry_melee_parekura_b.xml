@@ -66,4 +66,27 @@
   <VisualActor>
     <Actor>units/athenians/infantry_spearman_b.xml</Actor>
   </VisualActor>
+    <Builder>
+    <Entities datatype="tokens">
+      structures/maor/pou_whenua
+      -structures/{civ}/crannog
+      -structures/{civ}/military_colony
+      -structures/{civ}/encampment
+      -structures/{civ}/ice_house
+      -structures/{civ}/pyramid_small
+      -structures/{civ}/apartment
+      -structures/{civ}/corral
+      -structures/{civ}/kennel
+      -structures/{civ}/stable
+      -structures/{civ}/great_hall
+      -structures/{civ}/elephant_stable
+      -structures/{civ}/ministry
+      -structures/{civ}/arsenal
+      -structures/{civ}/academy
+      -structures/{civ}/wallset_stone
+      -structures/{civ}/wallset_palisade
+      -structures/{civ}/theater
+      -structures/{civ}/tachara
+    </Entities>
+  </Builder>
 </Entity>

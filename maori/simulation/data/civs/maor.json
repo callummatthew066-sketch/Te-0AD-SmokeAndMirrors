@@ -12,10 +12,30 @@
 	"CivBonuses":
 	[
 		{
-			"Name":"Test",
-			"History":"Test",
-			"Description":"Test"
-		}
+			"Name":"Pou Whenua",
+			"History":"Pou whenua were carved boundary markers that signified tribal authority over land.",
+			"Description":"Can construct Pou Whenua, a unique territory marker that expands Māori territory beyond normal borders."
+		},
+    {
+        "Name": "Taitamariki Warbands",
+        "History": "Young fighters were trained early and often fought in large, fast-moving groups.",
+        "Description": "Can train cheap, fast-producing Taitamariki infantry for rapid army production."
+    },
+    {
+        "Name": "Wahine Toa Stone Throwers",
+        "History": "Women could participate in defence and support roles, including ranged combat when needed.",
+        "Description": "Access to cheap ranged stone-throwing units (Wahine Toa)."
+    },
+    {
+        "Name": "Toa Parau Skirmishers",
+        "History": "Skirmishing with spears and javelins was a key tactic in Māori warfare.",
+        "Description": "Javelin-throwing Toa Parau excel at ranged harassment and mobility."
+    },
+    {
+        "Name": "Parekura Champions",
+        "History": "Elite warriors could hold the line against even the strongest enemy assaults.",
+        "Description": "Parekura act as heavily armoured frontline units, replacing traditional siege units in defensive warfare."
+    }
 	],
 	"WallSets":
 	[
@@ -31,19 +51,19 @@
 			"Template": "structures/maor/civil_centre"
 		},
 		{
-			"Template": "units/moar/support_female_citizen",
+			"Template": "units/maor/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "infantry_melee_toa_b",
+			"Template": "units/maor/infantry_melee_toa_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/moar/infantry_ranged_toa_parau_b",
+			"Template": "units/maor/infantry_ranged_toa_parau_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/moar/infantry_melee_taitamariki_b"
+			"Template": "units/maor/infantry_melee_taitamariki_b"
 		}
 	],
 	"AINames":
@@ -59,7 +79,10 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_melee_b": "units/maor/infantry_spearman_b"
+    "skirmish/units/default_infantry_melee_b": "units/maor/infantry_melee_toa_b",
+    "skirmish/units/default_infantry_ranged_b": "units/maor/infantry_ranged_toa_parau_b",
+    "skirmish/units/default_support_female_citizen": "units/maor/support_female_citizen",
+    "skirmish/units/default_cavalry": "units/maor/infantry_melee_taitamariki_b"
 	},
 	"SelectableInGameSetup": true
 }
