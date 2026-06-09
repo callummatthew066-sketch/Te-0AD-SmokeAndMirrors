@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support_healer">
+<Entity parent="template_unit_infantry_ranged">
   <Identity>
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/maor/support_healer_a</Entity>
+    <Entity>units/maor/infantry_ranged_wahine_toa_e</Entity>
   </Promotion>
 </Entity>

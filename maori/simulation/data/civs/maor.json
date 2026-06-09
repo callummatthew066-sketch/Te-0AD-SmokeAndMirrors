@@ -3,11 +3,9 @@
 	"Culture":[ "maori" ],
 	"Region":[ "pacific" ],
 	"Music":[
-		{"File":"The_Hellespont.ogg", "Type":"peace"},
-		{"File":"Harvest_Festival.ogg", "Type":"peace"},
-		{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
-		{"File":"In_the_Shadow_of_Olympus.ogg", "Type":"peace"},
-		{"File":"Forging_a_City-State.ogg", "Type":"peace"}
+		{"File":"maori_music_1.ogg", "Type":"peace"},
+		{"File":"maori_music_2.ogg", "Type":"peace"},
+		{"File":"maori_music_3.ogg", "Type":"peace"}
 	],
 	"CivBonuses":
 	[

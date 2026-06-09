@@ -21,7 +21,7 @@
     </Resources>
     <BuildTime>3</BuildTime>
   </Cost>
-<!--
+
   <Sound>
     <SoundGroups>
       <select>audio/voice/te_reo/maori_female.xml</select>
@@ -34,7 +34,8 @@
       <gather_fish>audio/voice/te_reo/maori_female.xml</gather_fish>
       <order_garrison>audio/voice/te_reo/maori_female.xml</order_garrison>
     </SoundGroups>
-  </Sound>-->
+  </Sound>
+  
     <VisualActor>
       <Actor>units/maor/support_female_citizen.xml</Actor>
     </VisualActor>

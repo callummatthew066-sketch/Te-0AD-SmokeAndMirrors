@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<SoundGroup>
+    <Gain>0.8</Gain>
+    <Priority>100</Priority>
+    <Looping>0</Looping>
+    <RandOrder>1</RandOrder>
+    <Path>audio/voice/te_reo</Path>
+    <Sound>civ_male_select_1.ogg</Sound>
+    <Sound>civ_male_select_2.ogg</Sound>
+    <Sound>civ_male_select_3.ogg</Sound>
+    <Sound>civ_male_select_4.ogg</Sound>
+    <Sound>civ_male_moving.ogg</Sound>
+    <Sound>civ_male_build.ogg</Sound>
+    <Sound>civ_male_attack_1.ogg</Sound>
+    <Sound>civ_male_attack_2.ogg</Sound>
+    <Sound>civ_male_fish.ogg</Sound>
+    <Sound>civ_male_retreat.ogg</Sound>
+</SoundGroup>
