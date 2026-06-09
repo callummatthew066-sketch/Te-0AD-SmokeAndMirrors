@@ -8,7 +8,7 @@
         <prop actor="props/units/heads/new/head_female_dudette_b.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="base_human_indian.png" name="normTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
