@@ -1,0 +1,14 @@
+{
+    "genericName": "Environmental Construction",
+	"autoResearch": true,
+	"description": "Maori used the environment to construct their buildings, making them cheaper, but still strong enough to withstand the tropical conditions of New Zealand.",
+	"requirements": {"civ": "maor"},
+	"icon": "wooden_buildings.png",
+	"tooltip": "Maori Buildings are 10% cheaper to construct, and 5% stronger.",
+	"modifications": [
+		{"value": "Health/Max", "multiply": 1.05},
+		{"value": "Capturable/CapturePoints", "multiply": 1.05},
+		{"value": "Cost/BuildTime", "multiply": 0.9}
+	],
+	"affects": ["Structure"]
+}

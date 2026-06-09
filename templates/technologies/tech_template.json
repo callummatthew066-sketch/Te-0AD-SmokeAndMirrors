@@ -1,0 +1,30 @@
+{
+	"genericName": "Input Tech Name here",
+	"description": "Input Tech description here.",
+	"cost": {
+		"food": 400,
+		"metal": 300,
+        "wood": 100,
+        "stone": 50
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town or phase_village or phase_city" },
+			{
+				"any": [
+					{ "civ": "Input name according to the civ.json file e.g. maor" }
+				]
+			}
+		]
+	},
+	"requirementsTooltip": "Unlocked in (Intended phase).",
+	"icon": "intended icon .png",
+	"researchTime": 60 (time in seconds),
+	"tooltip": "template shows −25% training time and −50% promotion experience.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.75 },
+		{ "value": "Promotion/RequiredXp", "multiply": 0.5 }
+	],
+	"affects": ["Infantry Spearman !Hero"] (What unit types the tech affects, this case every infantry spearman that isn't a hero),
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml" (sound affect on completion)
+}

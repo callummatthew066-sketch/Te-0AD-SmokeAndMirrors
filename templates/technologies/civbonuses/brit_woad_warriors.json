@@ -1,0 +1,18 @@
+{
+	"genericName": "template",
+	"autoResearch": true, (Means its active at start)
+	"description": "Insert Description",
+	"icon": "insert icon.png",
+	"tooltip": "Template case is +5% movement speed, and +1 loot taking.",
+	"requirements": { "civ": "maor" },
+	"modifications": [
+		{ "value": "UnitMotion/WalkSpeed", "multiply": 1.05 },
+		{ "value": "Looter/Resource/metal", "add": 1 },
+		{ "value": "Looter/Resource/stone", "add": 1 },
+		{ "value": "Looter/Resource/food", "add": 1 },
+		{ "value": "Looter/Resource/wood", "add": 1 }
+
+	],
+	"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
