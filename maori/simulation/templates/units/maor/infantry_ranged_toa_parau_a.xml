@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_ranged">
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Toa Parau</GenericName>
+    <SpecificName>Toa Parau</SpecificName>
+    <Rank>Advanced</Rank>
+  </Identity>
+  <Health>
+    <Max>115</Max>
+  </Health>
+  <Attack>
+    <Ranged>
+      <Damage>
+        <Hack>13</Hack>
+        <Pierce>7</Pierce>
+      </Damage>
+    </Ranged>
+  </Attack>
+  <Promotion>
+    <Entity>units/maor/infantry_ranged_toa_parau_e</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/thebans/infantry_javelinist_b.xml</Actor>
+  </VisualActor>
+</Entity>

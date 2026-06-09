@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee">
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Toa</GenericName>
+    <SpecificName>Toa</SpecificName>
+    <Rank>Elite</Rank>
+  </Identity>
+  <Health>
+    <Max>170</Max>
+  </Health>
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>18</Hack>
+        <Crush>12</Crush>
+      </Damage>
+    </Melee>
+  </Attack>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/thebans/melee_toa_b.xml</Actor>
+  </VisualActor>
+</Entity>

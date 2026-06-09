@@ -22,7 +22,7 @@
   <Health>
     <Max>40</Max>
   </Health>
-
+ 
   <Resistance>
     <Entity>
       <Damage>
@@ -32,19 +32,21 @@
       </Damage>
     </Entity>
   </Resistance>
-<Attack>
-  <Melee>
-    <AttackName>Melee</AttackName>
-    <Damage>
-      <Hack>6</Hack>
-      <Pierce>0</Pierce>
-      <Crush>4</Crush>
-    </Damage>
-    <MaxRange>2.0</MaxRange>
-    <PrepareTime>600</PrepareTime>
-    <RepeatTime>1200</RepeatTime>
-  </Melee>
-</Attack>
+
+  <Attack>
+    <Melee>
+      <AttackName>Melee</AttackName>
+      <Damage>
+        <Hack>6</Hack>
+        <Pierce>0</Pierce>
+        <Crush>4</Crush>
+      </Damage>
+      <MaxRange>2.0</MaxRange>
+      <PrepareTime>600</PrepareTime>
+      <RepeatTime>1200</RepeatTime>
+    </Melee>
+  </Attack>
+
   <UnitMotion>
     <WalkSpeed>11</WalkSpeed>
   </UnitMotion>
@@ -53,10 +55,23 @@
     <Range>28</Range>
   </Vision>
 
+  <Sound>
+    <SoundGroups>
+      <select>voice/te_reo/maori_male.xml</select>
+      <order_walk>voice/te_reo/maori_male.xml</order_walk>
+      <order_build>voice/te_reo/maori_male.xml</order_build>
+      <order_attack>voice/te_reo/maori_male.xml</order_attack>
+      <death>voice/te_reo/maori_male.xml</death>
+      <order_garrison>voice/te_reo/maori_male.xml</order_garrison>
+      <gather_fish>voice/te_reo/maori_male.xml</gather_fish>
+    </SoundGroups>
+  </Sound>
+
   <Promotion>
     <Entity>units/maor/infantry_melee_taitamariki_a</Entity>
   </Promotion>
-    <Builder>
+
+  <Builder>
     <Entities datatype="tokens">
       structures/maor/pou_whenua
       -structures/{civ}/crannog
@@ -79,6 +94,7 @@
       -structures/{civ}/tachara
     </Entities>
   </Builder>
+
   <VisualActor>
     <Actor>units/thebans/infantry_spearman_b.xml</Actor>
   </VisualActor>
