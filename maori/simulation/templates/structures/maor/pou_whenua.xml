@@ -4,10 +4,11 @@
     <Civ>maor</Civ>
     <SpecificName>Pou Whenua</SpecificName>
     <GenericName>Territory Marker</GenericName>
+    <Tooltip>A unique territory marker that expands Māori territory beyond normal borders. Pou whenua were carved posts planted in the earth to mark the boundaries of tribal land.</Tooltip>
     <Icon>structures/maori/pou_whenua.png</Icon>
     <History>Pou whenua were carved posts planted in the earth to mark the boundaries of tribal land.</History>
     <Classes datatype="tokens">
-  TerritoryInfluence Outpost Civic
+  TerritoryInfluence Outpost Civic CivSpecific
 </Classes>
   </Identity>
   <BuildRestrictions>

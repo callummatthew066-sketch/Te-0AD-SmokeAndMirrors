@@ -11,30 +11,20 @@
 	],
 	"CivBonuses":
 	[
-		{
-			"Name":"Pou Whenua",
-			"History":"Pou whenua were carved boundary markers that signified tribal authority over land.",
-			"Description":"Can construct Pou Whenua, a unique territory marker that expands Māori territory beyond normal borders."
-		},
     {
         "Name": "Taitamariki Warbands",
         "History": "Young fighters were trained early and often fought in large, fast-moving groups.",
-        "Description": "Can train cheap, fast-producing Taitamariki infantry for rapid army production."
+        "Description": "Cheap, fast-producing Taitamariki infantry."
     },
     {
         "Name": "Wahine Toa Stone Throwers",
         "History": "Women could participate in defence and support roles, including ranged combat when needed.",
-        "Description": "Access to cheap ranged stone-throwing units (Wahine Toa)."
+        "Description": "Cheap ranged stone-throwing units (Wahine Toa)."
     },
     {
         "Name": "Toa Parau Skirmishers",
         "History": "Skirmishing with spears and javelins was a key tactic in Māori warfare.",
         "Description": "Javelin-throwing Toa Parau excel at ranged harassment and mobility."
-    },
-    {
-        "Name": "Parekura Champions",
-        "History": "Elite warriors could hold the line against even the strongest enemy assaults.",
-        "Description": "Parekura act as heavily armoured frontline units, replacing traditional siege units in defensive warfare."
     }
 	],
 	"WallSets":

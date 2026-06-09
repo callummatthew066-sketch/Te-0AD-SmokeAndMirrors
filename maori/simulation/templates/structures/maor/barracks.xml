@@ -15,6 +15,11 @@
       units/{civ}/infantry_melee_parekura_b
     </Entities>
   </Trainer>
+  <Researcher>
+    <Technologies datatype="tokens">
+      maori/parekura_champions
+    </Technologies>
+  </Researcher>
     <Footprint>
     <Square width="31.0" depth="31.0"/>
   </Footprint>

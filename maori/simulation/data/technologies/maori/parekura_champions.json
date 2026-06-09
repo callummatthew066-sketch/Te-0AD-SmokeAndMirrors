@@ -1,0 +1,18 @@
+{
+	"genericName": "Parekura Champions",
+	"description": "Parekura act as heavily armoured frontline units, replacing traditional siege units in defensive warfare.",
+	"cost": {
+		"food": 600
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+            { "civ": "maor" }		
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "spear.png",
+	"researchTime": 60,
+	"tooltip": "Heavily armoured frontline units.",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

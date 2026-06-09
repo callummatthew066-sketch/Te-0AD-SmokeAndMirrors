@@ -14,7 +14,6 @@
       units/{civ}/infantry_melee_taitamariki_b
       units/{civ}/infantry_ranged_wahine_toa_b
       units/{civ}/infantry_ranged_toa_parau_b
-      units/{civ}/infantry_melee_parekura_b
     </Entities>
   </Trainer>
   <VisualActor>
