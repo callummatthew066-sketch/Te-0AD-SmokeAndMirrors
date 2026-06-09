@@ -4,6 +4,6 @@
     <Rank>Advanced</Rank>
   </Identity>
   <Promotion>
-    <Entity>units/theb/support_healer_e</Entity>
+    <Entity>units/maor/support_healer_e</Entity>
   </Promotion>
 </Entity>

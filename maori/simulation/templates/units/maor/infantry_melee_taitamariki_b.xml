@@ -14,7 +14,7 @@
 
   <Cost>
     <Resources>
-      <food>25</food>
+      <food>30</food>
     </Resources>
     <BuildTime>4</BuildTime>
   </Cost>
