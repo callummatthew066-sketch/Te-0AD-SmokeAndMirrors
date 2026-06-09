@@ -45,7 +45,7 @@
     <variant file="biped/formations/phalanx_back.xml"/>
     <variant file="biped/attack_capture.xml">
       <props>
-        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/spear_lance_persian.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
     <variant file="biped/attack_slaughter.xml"/>

@@ -6,6 +6,13 @@
     <SpecificName>Tāngata</SpecificName>
     <Icon>units/maor/support_civilian.png</Icon>
   </Identity>
+    <Cost>
+    <Resources>
+      <food>20</food>
+    </Resources>
+    <BuildTime>3</BuildTime>
+  </Cost>
+
   <Sound>
     <SoundGroups>
       <select>voice/te_reo/maori_female.xml</select>
@@ -17,8 +24,9 @@
       <gather_fish>voice/te_reo/maori_female.xml</gather_fish>
     </SoundGroups>
   </Sound>
-  <VisualActor>
-    <Actor>units/thebans/male_citizen.xml</Actor>
+  <VisualActor>      
+  <Actor>units/maor/support_{phenotype}_citizen.xml</Actor>
+
   </VisualActor>
     <Builder>
     <Entities datatype="tokens">
