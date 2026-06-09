@@ -5,11 +5,11 @@
     <Height>3.0</Height>
   </Footprint>
   <Identity>
-    <Civ>theb</Civ>
+    <Civ>maor</Civ>
     <Lang>greek</Lang>
     <GenericName>Theban Battering Ram</GenericName>
     <SpecificName>Krios</SpecificName>
-    <Icon>units/theb/siege_ram.png</Icon>
+    <Icon>units/maor/siege_ram.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

@@ -12,10 +12,10 @@
     </Melee>
   </Attack>
   <Auras datatype="tokens">
-    units/heroes/theb_hero_epaminondas
+    units/heroes/maor_hero_epaminondas
   </Auras>
   <Identity>
-    <Civ>theb</Civ>
+    <Civ>maor</Civ>
     <Lang>greek</Lang>
     <GenericName>Epaminondas</GenericName>
     <SpecificName>Epameinondas</SpecificName>

@@ -7,7 +7,7 @@
   <Identity>
     <GenericName>Fire Raiser</GenericName>
     <SpecificName>Pyrobolos</SpecificName>
-    <Icon>units/theb/siege_fireraiser.png</Icon>
+    <Icon>units/maor/siege_fireraiser.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>
