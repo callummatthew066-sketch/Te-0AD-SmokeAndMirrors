@@ -45,6 +45,12 @@ Here's what you can do with our 0-AD mod:
   
 • Unique Technologies
 
+• Unique Civ Bonuses
+  • 10% higher build speed and 10% higher health for all military units
+  • Buildingers are 10% cheaper and have 5% more health
+  • When in a team you get 40% faster technology research time and 40% less cost
+
+
 • Unique skins and models of buildings, UI, and units
 
 <img width="640" height="400" alt="Image 10-06-2026 at 8 11 pm" src="https://github.com/user-attachments/assets/52da0b07-42dc-4f19-a4cb-2c491c447453" />
