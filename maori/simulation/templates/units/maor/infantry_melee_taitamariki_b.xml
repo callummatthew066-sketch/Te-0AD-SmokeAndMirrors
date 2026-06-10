@@ -66,11 +66,11 @@
       <gather_fish>voice/te_reo/maori_male.xml</gather_fish>
     </SoundGroups>
   </Sound>
-
+<!--
   <Promotion>
     <Entity>units/maor/infantry_melee_taitamariki_a</Entity>
   </Promotion>
-
+-->
   <Builder>
     <Entities datatype="tokens">
       structures/maor/pou_whenua
