@@ -3,9 +3,7 @@
 	"Culture":[ "maori" ],
 	"Region":[ "pacific" ],
 	"Music":[
-		{"File":"maori_music_1.ogg", "Type":"peace"},
-		{"File":"maori_music_2.ogg", "Type":"peace"},
-		{"File":"maori_music_3.ogg", "Type":"peace"}
+		{"File":"maori_music_1.ogg", "Type":"peace"}
 	],
 	"CivBonuses":
 	[

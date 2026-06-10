@@ -5,7 +5,7 @@
     <variant frequency="1" name="Maori_Fortress">
       <mesh>structures/maori/Maori_Fortress.dae</mesh>
       <props>
-        <prop actor="props/structures/decals/dirt_11x11.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_9x9.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structures/maori/Maori_Fortress.png" name="baseTex"/>

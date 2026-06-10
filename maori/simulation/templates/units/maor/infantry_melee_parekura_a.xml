@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee">
+<Entity parent="units/maor/infantry_melee_parekura_b">
   <Identity>
-    <Civ>maor</Civ>
-    <GenericName>Parekura</GenericName>
-    <SpecificName>Parekura</SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
-  <Health>
-    <Max>280</Max>
-  </Health>
-  <Attack>
-    <Melee>
-      <Damage>
-        <Hack>18</Hack>
-        <Crush>35</Crush>
-      </Damage>
-    </Melee>
-  </Attack>
   <Promotion>
     <Entity>units/maor/infantry_melee_parekura_e</Entity>
   </Promotion>
-  <VisualActor>
-    <Actor>units/thebans/melee_parekura_b.xml</Actor>
-  </VisualActor>
 </Entity>

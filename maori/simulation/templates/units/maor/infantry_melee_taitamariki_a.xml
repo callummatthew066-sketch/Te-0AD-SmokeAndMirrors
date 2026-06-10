@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee">
+<Entity parent="units/maor/infantry_melee_taitamariki_b">
   <Identity>
-    <Civ>maor</Civ>
-    <GenericName>Taitamariki</GenericName>
-    <SpecificName>Taitamariki</SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
-  <Health>
-    <Max>55</Max>
-  </Health>
-  <Attack>
-    <Melee>
-      <Damage>
-        <Hack>8</Hack>
-        <Crush>5</Crush>
-      </Damage>
-    </Melee>
-  </Attack>
   <Promotion>
     <Entity>units/maor/infantry_melee_taitamariki_e</Entity>
   </Promotion>
-  <VisualActor>
-    <Actor>units/thebans/infantry_spearman_b.xml</Actor>
-  </VisualActor>
 </Entity>
