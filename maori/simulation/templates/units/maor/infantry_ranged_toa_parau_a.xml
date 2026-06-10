@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_ranged">
   <Identity>
     <Civ>maor</Civ>
-    <GenericName>Toa Parau</GenericName>
-    <SpecificName>Toa Parau</SpecificName>
+    <GenericName>Mou Rakau</GenericName>
+    <SpecificName>Mou Rakau</SpecificName>
     <Rank>Advanced</Rank>
   </Identity>
   <Health>

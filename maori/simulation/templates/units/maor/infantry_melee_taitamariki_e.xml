@@ -2,8 +2,8 @@
 <Entity parent="template_unit_infantry_melee">
   <Identity>
     <Civ>maor</Civ>
-    <GenericName>Taitamariki</GenericName>
-    <SpecificName>Taitamariki</SpecificName>
+    <GenericName>Tauira</GenericName>
+    <SpecificName>Tauira</SpecificName>
     <Rank>Elite</Rank>
   </Identity>
   <Health>
