@@ -3,9 +3,10 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_female_dudette_b.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_minister.xml" attachpoint="head"/>
+	<prop actor="props/units/helmets/han_hairbun.xml" attachpoint="helmet"/>
       </props>
       <textures>
         <texture file="default_norm.png" name="normTex"/>
@@ -14,9 +15,34 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="maori-dress">
+    <variant frequency="2" name="hele-tunic-2a">
       <textures>
-        <texture file="skeletal/female_dress_test.png" name="baseTex"/>
+        <texture file="skeletal/test_thing.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="hele-tunic-2b">
+      <textures>
+        <texture file="skeletal/test_thing.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="hele-tunic-2c">
+      <textures>
+        <texture file="skeletal/test_thing.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="2" name="hele-tunic-3a">
+      <textures>
+        <texture file="skeletal/test_thing.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="hele-tunic-3b">
+      <textures>
+        <texture file="skeletal/test_thing.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="3" name="hele-tunic-3c">
+      <textures>
+        <texture file="skeletal/test_thing.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -38,6 +64,15 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
+    <variant file="biped/formations/phalanx_front.xml"/>
+    <variant file="biped/formations/phalanx_mid.xml"/>
+    <variant file="biped/formations/phalanx_back.xml"/>
+    <variant file="biped/attack_capture.xml">
+      <props>
+        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
     <variant file="biped/gather_fruit.xml"/>
@@ -49,7 +84,6 @@
     <variant file="biped/build.xml"/>
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
-    <variant file="biped/attack_slaughter.xml"/>
   </group>
   <material>player_trans_norm_spec.xml</material>
 </actor>
