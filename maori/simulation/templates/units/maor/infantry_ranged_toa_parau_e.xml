@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged">
-  <Identity>
-    <Civ>maor</Civ>
-    <GenericName>Mou Rakau</GenericName>
-    <SpecificName>Mou Rakau</SpecificName>
-    <Rank>Elite</Rank>
-  </Identity>
-  <Health>
-    <Max>140</Max>
-  </Health>
-  <Attack>
-    <Ranged>
-      <Damage>
-        <Hack>16</Hack>
-        <Pierce>9</Pierce>
-      </Damage>
-    </Ranged>
-  </Attack>
+<Entity parent="units/maor/infantry_ranged_toa_parau_a">
+<Identity>
+  <Rank>Elite</Rank>
+</Identity>
   <Promotion disable=""/>
-  <VisualActor>
-    <Actor>units/thebans/infantry_javelinist_b.xml</Actor>
-  </VisualActor>
 </Entity>
