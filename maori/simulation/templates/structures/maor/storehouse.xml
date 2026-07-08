@@ -7,6 +7,6 @@
     <History>The pātaka was a raised storehouse used to store valuable goods and materials. Elevated on a central post to protect contents from moisture and pests, pātaka were often elaborately carved, reflecting the mana of the community.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/maori/storehouse.xml</Actor>
+    <Actor>structures/maor/storehouse.xml</Actor>
   </VisualActor>
 </Entity>

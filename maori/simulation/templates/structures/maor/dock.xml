@@ -18,9 +18,42 @@
   <Obstruction>
     <Static width="22.0" depth="26.0"/>
   </Obstruction>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/ship_double_hulled_canoe_b
+
+      -units/{civ}/ship_scout
+      -units/{civ}/ship_arrow
+      -units/{civ}/ship_ram
+      -units/{civ}/ship_fire
+      -units/{civ}/ship_siege
+    </Entities>
+  </Trainer>
+
+  <Researcher>
+    <Technologies datatype="tokens">
+      fishing_boat_gather_rate
+      fishing_boat_gather_capacity
+      dock_efficiency
+      -ship_health
+      -arsenal_philon
+      -juggernauts
+      -ship_movement_speed
+      -ship_vision
+      -exploration
+      -warship_arrow_attack
+      -warship_ramming_attack
+      -warship_fireship_attack
+      -warship_siege_attack
+      -warship_ranged_attack
+      -warship_health
+      -iphicratean_reforms
+      -equine_transports
+    </Technologies>
+  </Researcher>
 
   <VisualActor>
-    <Actor>structures/maori/dock.xml</Actor>
+    <Actor>structures/maor/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>
   </VisualActor>
 </Entity>

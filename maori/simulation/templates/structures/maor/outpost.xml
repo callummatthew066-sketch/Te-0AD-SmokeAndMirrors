@@ -7,6 +7,6 @@
     <History>Lookout posts were positioned around the pā and its surrounding land to warn of approaching enemies. Sentinels would signal danger using calls or fire, giving the community time to prepare for defence.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/maori/outpost.xml</Actor>
+    <Actor>structures/maor/outpost.xml</Actor>
   </VisualActor>
 </Entity>

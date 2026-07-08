@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <BonusMaori>
+          <Civ>maor</Civ>
+
+          <Classes></Classes>
+          <Multiplier>1.35</Multiplier>
+        </BonusMaori>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/maor_hero_kawiti
+  </Auras>
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>War Chief</GenericName>
+    <SpecificName>Kawiti</SpecificName>
+    <History>Kawiti was a formidable Ngāpuhi warrior known for his tactical excellence and fierce resistance. His guerrilla warfare tactics and fortress construction made him one of the most dangerous adversaries to colonial forces.</History>
+
+    <Icon>units/maor/Cheif1.png</Icon>
+                <Lang>maori</Lang>
+
+  </Identity>
+  <VisualActor>
+    <Actor>units/maor/hero_kawiti_b.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -22,8 +22,8 @@
 			{ "notciv": "ptol" },
 			{ "notciv": "rome" },
 			{ "notciv": "sele" },
-			{ "notciv": "spart" },
-			{ "notciv": "theb" }
+            { "notciv": "maor" },
+			{ "notciv": "spart" }
 		]
 	},
 	"icon": "wives_festival_african.png",

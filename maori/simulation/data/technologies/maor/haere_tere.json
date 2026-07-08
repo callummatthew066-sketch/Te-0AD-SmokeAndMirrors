@@ -1,0 +1,16 @@
+{
+	"genericName": "Haere Tere",
+	"specificName":{
+		"maor": "Haere Tere"
+	},
+	"description": "This training regimen conditions infantry to march and fight with greater speed and agility.",
+	"cost": {"wood": 150, "metal": 100},
+	"requirements": {"civ": "maor"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "maor/speed_tech.png",
+	"researchTime": 30,
+	"tooltip": "Units +50% movement speed.",
+	"modifications": [{"value": "UnitMotion/WalkSpeed", "multiply": 1.5}],
+	"affects": ["Unit Organic"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

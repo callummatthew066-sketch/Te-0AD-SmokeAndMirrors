@@ -1,0 +1,16 @@
+{
+	"type": "range",
+	"radius": 80,
+	"affects": ["Unit Organic"],
+	"affectedPlayers": ["Player"],
+	"requiredTechnology": "maor/maor_gathering_boost",
+	"modifications": [
+		{ "value": "ResourceGatherer/Rates/food.grain", "multiply": 2 },
+		{ "value": "ResourceGatherer/Rates/wood.tree", "multiply": 2 },
+		{ "value": "ResourceGatherer/Rates/stone.rock", "multiply": 2 },
+		{ "value": "ResourceGatherer/Rates/metal.ore", "multiply": 2 }
+	],
+	"auraName": "Whenua Ora",
+	"auraDescription": "Units gathering resources near this structure work 100% faster, blessed by the fertility of the land.",
+	"overlayIcon": "art/textures/ui/session/auras/farm_bonus.png"
+}

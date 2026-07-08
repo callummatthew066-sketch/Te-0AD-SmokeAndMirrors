@@ -7,6 +7,6 @@
     <History>Trade and exchange were important parts of Māori society, with different iwi trading food, tools, greenstone, and other taonga across established routes throughout Aotearoa.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/maori/market.xml</Actor>
+    <Actor>structures/maor/market.xml</Actor>
   </VisualActor>
 </Entity>

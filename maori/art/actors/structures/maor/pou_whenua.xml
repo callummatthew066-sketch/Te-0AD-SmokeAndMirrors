@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Maori_Pou_Whenua">
+      <mesh>structures/maor/Maori_Pou_Whenua.dae</mesh>
+      <textures>
+        <texture file="structures/maor/Maori_Pou_Whenua.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

@@ -6,5 +6,5 @@
 		{ "value": "ProductionQueue/TechCostMultiplier/time", "multiply": 0.6 }
 	],
 	"auraName": "Environmental Knowledge",
-	"auraDescription": "40% faster research time / 40% cheaper research cost"
+	"auraDescription": "40% faster research time for Mutual Allies' structures."
 }

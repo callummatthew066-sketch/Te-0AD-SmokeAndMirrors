@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 50,
+	"affects": ["Unit Organic"],
+	"modifications": [
+	  {"value": "Health/Max", "add": 70}
+	],
+	"auraName": "Te Wherowhero's Health Boost",
+	"auraDescription": "All units within range +70 health.",
+	"overlayIcon": "art/textures/ui/session/auras/heal.png"
+}

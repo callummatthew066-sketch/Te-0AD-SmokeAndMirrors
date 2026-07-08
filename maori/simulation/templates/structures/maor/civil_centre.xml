@@ -18,6 +18,6 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/thebans/civic_center.xml</Actor>
+    <Actor>structures/maor/civic_center.xml</Actor>
   </VisualActor>
 </Entity>

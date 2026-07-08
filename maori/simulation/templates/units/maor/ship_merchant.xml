@@ -6,11 +6,12 @@
   </Footprint>
   <Identity>
     <Civ>maor</Civ>
-    <Lang>greek</Lang>
-    <SpecificName>Ploîon Phortēgikón</SpecificName>
-    <Icon>units/hele/ship_merchant.png</Icon>
+    <Lang>maori</Lang>
+    <SpecificName>Waka Tētē</SpecificName>
+    <GenericName>Trader</GenericName>
+    <Icon>units/maor/ship_trader.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/hellenes/merchant.xml</Actor>
+    <Actor>units/maor/ship_merchant_b.xml</Actor>
   </VisualActor>
 </Entity>

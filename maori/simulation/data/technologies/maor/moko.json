@@ -1,0 +1,16 @@
+{
+	"genericName": "Moko Warrior Tattoos",
+	"specificName":{
+		"maor": "Moko Warrior Tattoos"
+	},
+	"description": "Sacred moko markings, carved into the skin through painstaking ritual, were believed to imbue Maori warriors with the strength and mana of their ancestors.",
+	"cost": {"food": 100, "metal": 150},
+	"requirements": {"all": [{"tech": "phase_town"}, {"civ": "maor"}]},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "maor/health_tech.png",
+	"researchTime": 35,
+	"tooltip": "Infantry +25% health.",
+	"modifications": [{"value": "Health/Max", "multiply": 1.25}],
+	"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -7,6 +7,6 @@
     <History>The whare tāhuna was the workshop of the tohunga whakairo — the master craftspeople of the hapū. Here skilled artisans worked bone, pounamu (greenstone), and hardwoods into weapons, tools, and taonga under conditions of tapu. The adzes, taiaha, and mere produced here were the finest weapons available to Māori warriors.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/maori/forge.xml</Actor>
+    <Actor>structures/maor/forge.xml</Actor>
   </VisualActor>
 </Entity>
