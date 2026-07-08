@@ -8,7 +8,7 @@
 		{"value": "Health/Max", "add": 20}
 
 	],
-	"auraName": "Test",
-	"auraDescription": "Test, multiplies food gather rate by numb of units garrisonned.",
+	"auraName": "Mahinga Kai",
+	"auraDescription": "Mahinga Kai (food-gathering grounds): nearby units gather grain faster and gain extra health from the abundance of the land.",
 	"overlayIcon": "art/textures/ui/session/auras/heal.png"
 }
