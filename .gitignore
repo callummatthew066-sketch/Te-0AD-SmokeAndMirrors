@@ -2,3 +2,4 @@
 *.cached.xmb
 public/
 mod/
+.DS_Store
