@@ -4,7 +4,7 @@
     <Civ>maor</Civ>
     <SpecificName>Pou Whenua</SpecificName>
     <GenericName>Territory Marker</GenericName>
-    <Icon>structures/maori/pou_whenua.png</Icon>
+    <Icon>structures/maor/pou_whenua.png</Icon>
     <History>Pou whenua were carved posts planted in the earth to mark the boundaries of tribal land.</History>
     <Classes datatype="tokens">
   TerritoryInfluence Outpost Civic
@@ -26,6 +26,16 @@
 <Obstruction>
     <Static width="2.0" depth="2.0"/>
 </Obstruction>
+<Auras datatype="tokens">
+    structures/maor_gather_boost
+</Auras>
+  <ProductionQueue/>
+  <Researcher>
+    <Technologies datatype="tokens">
+      maor/maor_gathering_boost
+    </Technologies>
+  </Researcher>
+
 <TerritoryInfluence>
   <Root>false</Root>
   <Radius>60</Radius>
@@ -43,7 +53,7 @@
     <Max>500</Max>
   </Health>
   <VisualActor>
-    <Actor>structures/maori/pou_whenua.xml</Actor>
+    <Actor>structures/maor/pou_whenua.xml</Actor>
     <FoundationActor>structures/fndn_2x2.xml</FoundationActor>
 
   </VisualActor>

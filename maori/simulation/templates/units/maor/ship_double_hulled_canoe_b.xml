@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_arrow">
+  <Footprint>
+    <Square width="10.0" depth="20.0"/>
+    <Height>6.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>maor</Civ>
+    <SpecificName>Double Hulled Canoe</SpecificName>
+    <History>The double-hulled canoe was a revolutionary design in Polynesian and Māori maritime technology. Two hulls connected by a platform provided stability for ocean voyages and combat operations. The design allowed for greater cargo capacity and a more stable platform for warriors armed with spears and projectiles. These vessels were instrumental in Māori exploration, trade, and inter-tribal warfare, capable of navigating both coastal waters and open ocean. The double hull design made them faster and more maneuverable than single-hulled alternatives.</History>
+    <Icon>units/maor/ship_double_hulled_canoe.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/maor/ship_double_hulled_canoe_b.xml</Actor>
+  </VisualActor>
+</Entity>

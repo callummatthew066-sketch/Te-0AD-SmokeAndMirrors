@@ -14,7 +14,7 @@
     <Static width="33.0" depth="33.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/maori/wonder.xml</Actor>
+    <Actor>structures/maor/wonder.xml</Actor>
     <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
   </VisualActor>
 </Entity>

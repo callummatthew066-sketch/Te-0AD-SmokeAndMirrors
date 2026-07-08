@@ -17,24 +17,14 @@
   </Identity>
       <Cost>
     <Resources>
-      <food>20</food>
+      <food>40</food>
     </Resources>
-    <BuildTime>3</BuildTime>
+    <BuildTime>8</BuildTime>
   </Cost>
+  <Health>
+    <Max>10</Max>
+  </Health>
 
-  <Sound>
-    <SoundGroups>
-      <select>voice/te_reo/maori_female.xml</select>
-      <death>voice/te_reo/maori_female.xml</death>
-      <order_walk>voice/te_reo/maori_female.xml</order_walk>
-      <order_build>voice/te_reo/maori_female.xml</order_build>
-      <order_attack>voice/te_reo/maori_female.xml</order_attack>
-      <order_attack_move>voice/te_reo/maori_female.xml</order_attack_move>
-      <order_patrol>voice/te_reo/maori_female.xml</order_patrol>
-      <gather_fish>voice/te_reo/maori_female.xml</gather_fish>
-      <order_garrison>voice/te_reo/maori_female.xml</order_garrison>
-    </SoundGroups>
-  </Sound>
   
     <VisualActor>
       <Actor>units/maor/support_female_citizen.xml</Actor>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <BonusMaori>
+          <Civ>maor</Civ>
+
+          <Classes></Classes>
+          <Multiplier>1.25</Multiplier>
+        </BonusMaori>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/maor_hero_te_wherowhero
+  </Auras>
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Paramount Chief</GenericName>
+    <SpecificName>Te Wherowhero</SpecificName>
+    <History>Te Wherowhero was a visionary leader who founded the Kingitanga movement, uniting Māori tribes under a single monarch. His diplomatic wisdom and political acumen reshaped Māori governance and resistance to colonial expansion.</History>
+
+    <Icon>units/maor/Cheif3.png</Icon>
+                <Lang>maori</Lang>
+
+  </Identity>
+  <VisualActor>
+    <Actor>units/maor/hero_te_wherowhero_b.xml</Actor>
+  </VisualActor>
+</Entity>

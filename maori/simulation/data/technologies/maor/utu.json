@@ -1,0 +1,16 @@
+{
+	"genericName": "Utu",
+	"specificName":{
+		"maor": "Utu"
+	},
+	"description": "Utu was the Maori principle of reciprocity and balance, compelling warriors to answer aggression with equal or greater force to restore honor and equilibrium.",
+	"cost": {"wood": 100, "metal": 200},
+	"requirements": {"all": [{"tech": "phase_city"}, {"civ": "maor"}]},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "maor/attack_tech.png",
+	"researchTime": 40,
+	"tooltip": "Infantry +25% melee hack damage.",
+	"modifications": [{"value": "Attack/Melee/Hack", "multiply": 1.25}],
+	"affects": ["Infantry"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

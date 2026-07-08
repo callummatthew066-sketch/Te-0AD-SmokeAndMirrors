@@ -1,0 +1,15 @@
+{
+	"genericName": "Whenua Ora",
+	"specificName":{
+		"maor": "Whenua Ora"
+	},
+	"description": "Whenua Ora, meaning 'living land,' reflects the deep Maori connection to the earth as a source of sustenance and strength for the community.",
+	"cost": {"food": 150, "wood": 150},
+	"requirements": {"civ": "maor"},
+	"requirementsTooltip": "Unlocked in Village Phase.",
+	"icon": "maor/gather_aura_tech.png",
+	"researchTime": 35,
+	"tooltip": "Enables an aura: units gathering resources near this structure work 20% faster.",
+	"affects": ["Structure"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

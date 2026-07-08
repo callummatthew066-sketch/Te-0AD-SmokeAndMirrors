@@ -1,6 +1,7 @@
 <Entity parent="template_unit_infantry">
   <Identity>
     <Civ>maor</Civ>
+        <Lang>maori</Lang>
     <GenericName>Māori Warrior</GenericName>
     <Icon>units/maor/warrior.png</Icon>
     <Classes datatype="tokens">

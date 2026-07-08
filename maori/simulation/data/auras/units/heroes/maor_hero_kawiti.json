@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 70,
+	"affects": ["Unit Organic"],
+	"modifications": [
+	  {"value": "Attack/Melee/Hack", "multiply": 3}
+	],
+	"auraName": "Hongi Hika's Leadership",
+	"auraDescription": "All units within range +300% attack",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

@@ -13,6 +13,9 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
+    <Auras datatype="tokens">
+    structures/test_building_aura
+  </Auras>
   <Researcher>
     <Technologies datatype="tokens">
 
@@ -20,10 +23,13 @@
   </Researcher>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/hero_hongi_hika_b
+      units/{civ}/hero_te_wherowhero_b
+      units/{civ}/hero_kawiti_b
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/maori/fortress.xml</Actor>
+    <Actor>structures/maor/fortress.xml</Actor>
   </VisualActor>
   <WallPiece>
     <Length>24.0</Length>

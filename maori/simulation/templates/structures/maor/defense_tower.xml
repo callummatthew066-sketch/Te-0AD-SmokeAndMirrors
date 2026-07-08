@@ -17,6 +17,6 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/maori/defense_tower.xml</Actor>
+    <Actor>structures/maor/defense_tower.xml</Actor>
   </VisualActor>
 </Entity>

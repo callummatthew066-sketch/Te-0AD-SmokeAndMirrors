@@ -83,9 +83,9 @@
         <prop actor="props/units/standards/formation_flag_spart.xml" attachpoint="root"/>
       </props>
     </variant>
-    <variant name="theb">
+    <variant name="maor">
       <props>
-        <prop actor="props/units/standards/formation_flag_theb.xml" attachpoint="root"/>
+        <prop actor="props/units/standards/formation_flag_maor.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

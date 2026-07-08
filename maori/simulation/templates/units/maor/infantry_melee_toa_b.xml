@@ -2,6 +2,8 @@
 <Entity parent="template_unit_infantry_melee">
   <Identity>
     <Civ>maor</Civ>
+            <Lang>maori</Lang>
+
     <GenericName>Toa</GenericName>
     <SpecificName>Toa</SpecificName>
     <Icon>units/maor/maori_infantry_toa.png</Icon>
@@ -16,9 +18,9 @@
   <Cost>
     <Resources>
       <food>60</food>
-      <wood>40</wood>
+      <wood>60</wood>
     </Resources>
-    <BuildTime>8</BuildTime>
+    <BuildTime>12</BuildTime>
   </Cost>
 
   <Health>
@@ -28,9 +30,9 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>3</Hack>
-        <Pierce>4</Pierce>
-        <Crush>2</Crush>
+        <Hack>6</Hack>
+        <Pierce>6</Pierce>
+        <Crush>3</Crush>
       </Damage>
     </Entity>
   </Resistance>
@@ -39,7 +41,7 @@
     <Melee>
       <AttackName>Melee</AttackName>
       <Damage>
-        <Hack>12</Hack>
+        <Hack>15</Hack>
         <Pierce>0</Pierce>
         <Crush>8</Crush>
       </Damage>
@@ -57,17 +59,6 @@
     <Range>40</Range>
   </Vision>
 
-  <Sound>
-    <SoundGroups>
-      <select>voice/te_reo/maori_male.xml</select>
-      <order_walk>voice/te_reo/maori_male.xml</order_walk>
-      <order_build>voice/te_reo/maori_male.xml</order_build>
-      <order_attack>voice/te_reo/maori_male.xml</order_attack>
-      <death>voice/te_reo/maori_male.xml</death>
-      <order_garrison>voice/te_reo/maori_male.xml</order_garrison>
-      <gather_fish>voice/te_reo/maori_male.xml</gather_fish>
-    </SoundGroups>
-  </Sound>
 
   <Promotion>
     <Entity>units/maor/infantry_melee_toa_a</Entity>
@@ -98,6 +89,6 @@
   </Builder>
 
   <VisualActor>
-    <Actor>units/thebans/melee_toa_b.xml</Actor>
+    <Actor>units/maor/melee_toa_b.xml</Actor>
   </VisualActor>
 </Entity>

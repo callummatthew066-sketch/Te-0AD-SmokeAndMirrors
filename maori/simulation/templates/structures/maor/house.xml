@@ -13,7 +13,8 @@
     <GenericName>House</GenericName>
     <History>The whare was the traditional Māori dwelling, constructed from timber frames with walls of bark, rushes, or raupo (bulrush). Carved and painted decorations represented ancestral connections and tribal identity.</History>
   </Identity>
+
   <VisualActor>
-    <Actor>structures/maori/house.xml</Actor>
+    <Actor>structures/maor/house.xml</Actor>
   </VisualActor>
 </Entity>

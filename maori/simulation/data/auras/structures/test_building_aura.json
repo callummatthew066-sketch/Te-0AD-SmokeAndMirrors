@@ -1,10 +1,14 @@
 {
-	"type": "global",
-	"affects": ["Human"],
+	"type": "range",
+	"radius": 120,
+	"affects": ["Unit Organic"],
+	"affectedPlayers": ["Player"],
 	"modifications": [
-		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 30}
+		{"value": "ResourceGatherer/Rates/food.grain", "multiply": 30},
+		{"value": "Health/Max", "add": 20}
+
 	],
 	"auraName": "Test",
 	"auraDescription": "Test, multiplies food gather rate by numb of units garrisonned.",
-	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png"
+	"overlayIcon": "art/textures/ui/session/auras/heal.png"
 }

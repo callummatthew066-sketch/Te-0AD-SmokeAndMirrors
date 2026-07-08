@@ -2,6 +2,8 @@
 <Entity parent="template_unit_infantry_melee">
   <Identity>
     <Civ>maor</Civ>
+            <Lang>maori</Lang>
+
     <GenericName>Rangatira</GenericName>
     <SpecificName>Rangatira</SpecificName>
     <Icon>units/maor/infantry_melee_parekura.png</Icon>
@@ -10,28 +12,32 @@
       who led the charge and absorbed the brunt of enemy attacks. Their mana
       inspired all who fought beside them.
     </History>
+      <Requirements>
+    <Techs datatype="tokens">phase_town</Techs>
+  </Requirements>
     <Tooltip>Heavy frontline warrior. High HP, fast for their size, and moderate damage. Expensive but worth it.</Tooltip>
   </Identity>
 
   <Cost>
     <Resources>
-      <food>80</food>
-      <wood>40</wood>
-      <stone>20</stone>
+      <food>100</food>
+      <wood>50</wood>
+      <stone>50</stone>
+      <metal>50</metal>
     </Resources>
-    <BuildTime>12</BuildTime>
+    <BuildTime>15</BuildTime>
   </Cost>
 
   <Health>
-    <Max>250</Max>
+    <Max>150</Max>
   </Health>
 
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>8</Hack>
-        <Pierce>7</Pierce>
-        <Crush>5</Crush>
+        <Hack>9</Hack>
+        <Pierce>8</Pierce>
+        <Crush>7</Crush>
       </Damage>
     </Entity>
   </Resistance>
@@ -40,9 +46,9 @@
     <Melee>
       <AttackName>Melee</AttackName>
       <Damage>
-        <Hack>15</Hack>
+        <Hack>20</Hack>
         <Pierce>0</Pierce>
-        <Crush>30</Crush>
+        <Crush>20</Crush>
       </Damage>
       <MaxRange>2.0</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -52,24 +58,14 @@
   </Attack>
 
   <UnitMotion>
-    <WalkSpeed>11</WalkSpeed>
+    <WalkSpeed>12</WalkSpeed>
   </UnitMotion>
 
   <Vision>
     <Range>50</Range>
   </Vision>
 
-  <Sound>
-    <SoundGroups>
-      <select>voice/te_reo/maori_male.xml</select>
-      <order_walk>voice/te_reo/maori_male.xml</order_walk>
-      <order_build>voice/te_reo/maori_male.xml</order_build>
-      <order_attack>voice/te_reo/maori_male.xml</order_attack>
-      <death>voice/te_reo/maori_male.xml</death>
-      <order_garrison>voice/te_reo/maori_male.xml</order_garrison>
-      <gather_fish>voice/te_reo/maori_male.xml</gather_fish>
-    </SoundGroups>
-  </Sound>
+
 
   <Promotion>
     <Entity>units/maor/infantry_melee_parekura_a</Entity>
@@ -99,7 +95,8 @@
     </Entities>
   </Builder>
 
+
   <VisualActor>
-    <Actor>units/thebans/melee_parekura_b.xml</Actor>
+    <Actor>units/maor/melee_parekura_b.xml</Actor>
   </VisualActor>
 </Entity>

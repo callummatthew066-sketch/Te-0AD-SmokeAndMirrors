@@ -1,0 +1,11 @@
+{
+	"type": "range",
+	"radius": 120,
+	"affects": ["Unit Organic"],
+	"modifications": [
+	  {"value": "UnitMotion/WalkSpeed", "multiply": 2}
+	],
+	"auraName": "Hongi Hika's Leadership",
+	"auraDescription": "All units within range +200% movement speed.",
+	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+}

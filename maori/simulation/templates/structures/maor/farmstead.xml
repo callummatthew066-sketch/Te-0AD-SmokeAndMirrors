@@ -5,7 +5,7 @@
     <Height>8.0</Height>
   </Footprint>
   <Health>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x2</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>maor</Civ>
@@ -14,10 +14,10 @@
     <History>Kūmara (sweet potato) was the most prized crop of the Māori, carefully stored in underground rua to protect it from frost and pests through the winter months. The health of a hapū depended on the success of these stores.</History>
   </Identity>
   <Obstruction>
-    <Static width="5.0" depth="5.0"/>
+    <Static width="12.0" depth="12.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/maori/farmstead.xml</Actor>
-    <FoundationActor>structures/fndn_6x3.xml</FoundationActor>
+    <Actor>structures/maor/farmstead.xml</Actor>
+    <FoundationActor>structures/fndn_3x3.xml</FoundationActor>
   </VisualActor>
 </Entity>

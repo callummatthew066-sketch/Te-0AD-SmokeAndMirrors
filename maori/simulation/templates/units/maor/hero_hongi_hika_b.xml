@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_spearman">
+  <Attack>
+    <Melee>
+      <Bonuses>
+        <BonusMaori>
+          <Civ>maor</Civ>
+
+          <Classes></Classes>
+          <Multiplier>1.3</Multiplier>
+        </BonusMaori>
+      </Bonuses>
+    </Melee>
+  </Attack>
+  <Auras datatype="tokens">
+    units/heroes/maor_hero_hongi_hika
+  </Auras>
+  <Identity>
+    <Civ>maor</Civ>
+    <GenericName>Warrior Chief</GenericName>
+    <SpecificName>Hongi Hika</SpecificName>
+    <History>Hongi Hika was a Ngāpuhi warrior chief who unified the northern tribes of Aotearoa through military prowess and diplomatic skill. Known for his strategic brilliance and devastating battles, he transformed the political landscape of the north.</History>
+
+    <Icon>units/maor/Cheif2.png</Icon>
+                <Lang>maori</Lang>
+
+  </Identity>
+
+    <UnitMotion>
+    <WalkSpeed>25</WalkSpeed>
+  </UnitMotion>
+
+  <VisualActor>
+    <Actor>units/maor/hero_hongi_hika_b.xml</Actor>
+  </VisualActor>
+</Entity>

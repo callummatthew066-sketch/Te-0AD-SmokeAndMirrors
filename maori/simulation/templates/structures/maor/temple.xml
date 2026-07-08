@@ -16,7 +16,7 @@
     <Static width="29.0" depth="29.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/maori/temple.xml</Actor>
+    <Actor>structures/maor/temple.xml</Actor>
     <FoundationActor>structures/fndn_5x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

@@ -7,6 +7,6 @@
     <History>Raised timber lookout platforms were a crucial part of the Māori pā defence system, allowing warriors to watch over surrounding land and give early warning of approaching enemies.</History>
   </Identity>
   <VisualActor>
-    <Actor>structures/maori/sentry_tower.xml</Actor>
+    <Actor>structures/maor/sentry_tower.xml</Actor>
   </VisualActor>
 </Entity>
