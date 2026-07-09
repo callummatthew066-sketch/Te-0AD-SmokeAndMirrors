@@ -3,7 +3,7 @@ This mod for 0 A.D. includes te reo Māori, Māori imagery, and Māori cultural 
 
 # 0-AD Mod
 
-This is a mod implementing a Māori civilization into the game 0-AD. It was built as the big end-of-semester project for the Data Structures and Algorithms paper at Waikato. We added unique Māori models, units, buildings, and audio into the game. As it was a Māori game, we interviewed relevant Māori stakeholders to get feedback and advice to help with the mod authenticity and to make sure we were portraying the culture correctly. You can download the mod [here](https://mod.io/g/0ad/m/maori-0ad#description)
+This is a mod implementing a Māori civilization into the game 0-AD. It was built as the big end-of-semester project for the Data Structures and Algorithms paper at Waikato. We added unique Māori models, units, buildings, and audio into the game. As it was a Māori game, we interviewed relevant Māori stakeholders to get feedback and advice to help with the mod authenticity and to make sure we were portraying the culture correctly. You can download the mod [here](https://mod.io/g/0ad/m/maori-0ad#description).
 
 <img width="640" height="400" alt="Image 10-06-2026 at 8 16 pm" src="https://github.com/user-attachments/assets/bdfd5189-5e19-487a-83df-e5d18fad1b26" />
 
