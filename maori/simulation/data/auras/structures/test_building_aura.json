@@ -10,5 +10,5 @@
 	],
 	"auraName": "Mahinga Kai",
 	"auraDescription": "Mahinga Kai (food-gathering grounds): nearby units gather grain faster and gain extra health from the abundance of the land.",
-	"overlayIcon": "art/textures/ui/session/auras/heal.png"
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png"
 }

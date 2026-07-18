@@ -12,7 +12,7 @@
       Feared for their speed and ferocity, Toa led the charge in battle,
       performing the haka to intimidate enemies before striking.
     </History>
-    <Tooltip>Fast melee warrior. Low armour but high attack and move speed.</Tooltip>
+    <Tooltip>Fast melee warrior. High armour, high attack and high move speed.</Tooltip>
   </Identity>
 
   <Cost>
@@ -30,9 +30,9 @@
   <Resistance>
     <Entity>
       <Damage>
-        <Hack>6</Hack>
-        <Pierce>6</Pierce>
-        <Crush>3</Crush>
+        <Hack>7</Hack>
+        <Pierce>7</Pierce>
+        <Crush>4</Crush>
       </Damage>
     </Entity>
   </Resistance>

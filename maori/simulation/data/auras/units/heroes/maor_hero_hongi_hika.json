@@ -7,5 +7,5 @@
 	],
 	"auraName": "Hongi Hika's Leadership",
 	"auraDescription": "All units within range +200% movement speed.",
-	"overlayIcon": "art/textures/ui/session/auras/attack_bonus.png"
+	"overlayIcon": "art/textures/ui/session/auras/speed_bonus.png"
 }
