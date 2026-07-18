@@ -5,7 +5,7 @@
 	"modifications": [
 	  {"value": "Health/Max", "add": 70}
 	],
-	"auraName": "Te Wherowhero's Health Boost",
+	"auraName": "Te Wherowhero's Whakaruruhau",
 	"auraDescription": "All units within range +70 health.",
-	"overlayIcon": "art/textures/ui/session/auras/heal.png"
+	"overlayIcon": "art/textures/ui/session/auras/health_bonus.png"
 }
