@@ -20,7 +20,9 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
+      units/{civ}/ship_waka
       units/{civ}/ship_double_hulled_canoe_b
+      units/{civ}/ship_merchant
 
       -units/{civ}/ship_scout
       -units/{civ}/ship_arrow
