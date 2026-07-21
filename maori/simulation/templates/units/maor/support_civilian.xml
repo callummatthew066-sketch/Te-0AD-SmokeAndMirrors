@@ -6,6 +6,8 @@
 
     <GenericName>Māori Citizen</GenericName>
     <SpecificName>Tāngata</SpecificName>
+    <Tooltip>Cheap, but fragile</Tooltip>
+
     <Icon>units/maor/support_civilian.png</Icon>
   </Identity>
     <Cost>

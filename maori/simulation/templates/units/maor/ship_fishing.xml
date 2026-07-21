@@ -8,9 +8,9 @@
     <Civ>maor</Civ>
     <Lang>maori</Lang>
     <SpecificName>Waka Hīanga</SpecificName>
-    <Icon>units/maur/ship_fishing.png</Icon>
+    <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/mauryas/fishing_ship.xml</Actor>
+    <Actor>units/maor/fishing_ship.xml</Actor>
   </VisualActor>
 </Entity>

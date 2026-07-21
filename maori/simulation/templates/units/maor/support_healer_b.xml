@@ -5,6 +5,9 @@
         <Lang>maori</Lang>
     <GenericName>Priest</GenericName>
     <SpecificName>Māori Tohunga</SpecificName>
+<History>Tohunga held deep knowledge of healing, ritual, and the spiritual world, serving as guides between the physical and sacred realms. Trained for years in the practices of rongoā (traditional medicine) and karakia (incantations), they tended to the sick and wounded, and their presence on and off the battlefield was believed to protect and strengthen the mana of those they served.</History>
+    <Tooltip>Expensive, but with increased healing capabilities</Tooltip>
+
     <Icon>units/maor/support_healer.png</Icon>
         <Phenotype>female</Phenotype>
 
@@ -13,6 +16,25 @@
     <Entity>units/maor/support_healer_b</Entity>
   </Promotion>
 
+  <Cost>
+    <BuildTime>18</BuildTime>
+    <Resources>
+      <food>150</food>
+      <metal>100</metal>
+    </Resources>
+  </Cost>
+  <Heal>
+    <Range>20</Range>
+    <RangeOverlay>
+      <LineTexture>heal_overlay_range.png</LineTexture>
+      <LineTextureMask>heal_overlay_range_mask.png</LineTextureMask>
+      <LineThickness>0.35</LineThickness>
+    </RangeOverlay>
+    <Health>15</Health>
+    <Interval>1000</Interval>
+    <UnhealableClasses datatype="tokens"/>
+    <HealableClasses datatype="tokens">Human</HealableClasses>
+  </Heal>
 
   <VisualActor>
     <Actor>units/maor/healer.xml</Actor>

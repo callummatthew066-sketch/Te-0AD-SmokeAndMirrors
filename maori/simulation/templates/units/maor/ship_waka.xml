@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship">
+
+  <Identity>
+    <Civ>maor</Civ>
+    <Lang>maori</Lang>
+    <SpecificName>Waka</SpecificName>
+    <GenericName>Ramming Ship</GenericName>
+    <VisibleClasses datatype="tokens">NavalRam Melee</VisibleClasses>
+    <Classes datatype="tokens">Trireme</Classes>
+    <Tooltip>Garrison units for transport across water.</Tooltip>
+    <Icon>units/maor/waka.png</Icon> 
+  </Identity>
+
+  <Attack>
+    <Ranged disable=""/>
+    <Melee>
+      <AttackName>Naval Ram</AttackName>
+      <Damage>
+        <Hack>280</Hack>
+        <Pierce>0</Pierce>
+        <Crush>40</Crush>
+      </Damage>
+      <MaxRange>12.0</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+
+      <PreferredClasses datatype="tokens">
+        Warship
+      </PreferredClasses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>600</Max>
+  </Health>
+  <Footprint>
+    <Square width="9.0" depth="36.0"/>
+    <Height>8.0</Height>
+  </Footprint>
+  <Cost>
+    <Population>1</Population>
+    <BuildTime>12</BuildTime>
+    <Resources>
+      <wood>150</wood>
+    </Resources>
+  </Cost>
+    <Loot>
+    <xp>50</xp>
+    <food>5</food>
+    <wood>10</wood>
+    <metal>2</metal>
+  </Loot>
+  <Position>
+    <TurnRate>1.5</TurnRate>
+  </Position>
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>5</Pierce>
+        <Crush>1</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Selectable>
+    <Overlay>
+      <Texture>
+        <MainTexture>128x512/cartouche.png</MainTexture>
+        <MainTextureMask>128x512/cartouche_mask.png</MainTextureMask>
+      </Texture>
+    </Overlay>
+  </Selectable>
+  <StatusBars>
+    <BarWidth>6.0</BarWidth>
+    <BarHeight>0.5</BarHeight>
+    <HeightOffset>6.0</HeightOffset>
+  </StatusBars>
+    <GarrisonHolder>
+    <Max>30</Max>
+    <EjectClassesOnDestroy datatype="tokens">Civilian Infantry Dog</EjectClassesOnDestroy>
+    <List datatype="tokens">Siege</List>
+    <LoadingRange>10</LoadingRange>
+  </GarrisonHolder>
+  <UnitMotion>
+    <WalkSpeed op="mul">3</WalkSpeed>
+    <Acceleration op="mul">1.5</Acceleration>
+  </UnitMotion>
+  <VisualActor>
+    <Actor>units/maor/waka.xml</Actor>
+  </VisualActor>
+</Entity>

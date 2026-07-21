@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <float/>
+  <group>
+    <variant frequency="1" name="Waka">
+
+      <mesh>units/maor/Waka.dae</mesh>
+      <props>
+        <prop actor="units/maor/fisherman.xml" attachpoint="rower_1"/>
+        <prop actor="units/maor/fisherman.xml" attachpoint="rower_2"/>
+        <prop actor="units/maor/fisherman.xml" attachpoint="rower_3"/>
+        <prop actor="units/maor/fisherman.xml" attachpoint="rower_4"/>
+        <prop actor="units/maor/fisherman.xml" attachpoint="rower_5"/>
+        <prop actor="props/structures/hellenes/ship_oar_right.xml" attachpoint="oar_1"/>
+        <prop actor="props/structures/hellenes/ship_oar_left.xml" attachpoint="oar_2"/>
+        <prop actor="props/structures/hellenes/ship_oar_right.xml" attachpoint="oar_3"/>
+        <prop actor="props/structures/hellenes/ship_oar_left.xml" attachpoint="oar_4"/>
+        <prop actor="props/structures/hellenes/ship_oar_right.xml" attachpoint="oar_5"/>
+      </props>
+      <textures>
+        <texture file="structures/maor/Maori_Outpost.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant frequency="1" name="walk"/>
+    <variant frequency="1" name="run"/>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>

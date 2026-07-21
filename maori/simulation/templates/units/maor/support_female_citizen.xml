@@ -8,6 +8,7 @@
 
     <SpecificName>Wahine Māori</SpecificName>
     <GenericName>Māori Woman</GenericName>
+    <Tooltip>Cheap, but fragile</Tooltip>
 
     <Icon>units/maor/support_female_citizen.png</Icon>
 
@@ -17,7 +18,7 @@
   </Identity>
       <Cost>
     <Resources>
-      <food>40</food>
+      <food>25</food>
     </Resources>
     <BuildTime>8</BuildTime>
   </Cost>
